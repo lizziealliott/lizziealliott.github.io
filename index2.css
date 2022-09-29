@@ -1,15 +1,14 @@
 /* Richard Davies, Data Science for Economists */
 
-/* This is my first proper css file */
+/* This is my second proper css file */
 
 
 /* Import a font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 /* Set the background color for my page: */
 body{
-    background-color: rgb(185, 228, 232);
+    background-color: rgb(216, 240, 242);
  
 }
 
@@ -17,7 +16,7 @@ body{
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h3, p{
     color:rgb(17, 17, 17);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
     text-align: center;
 }
     
@@ -30,8 +29,8 @@ h1, h3, p{
 
 /* Set the apperance of the class, chart */
 .chart{
-    background-color: rgb(242, 224, 191);
-    width:330px;
+    background-color: rgb(255, 255, 255);
+    width: 348px;
     border-width: 1px;
     border-style: solid;
     border-radius: 0px;
