@@ -1,0 +1,49 @@
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap" rel="stylesheet"');
+
+
+/* Set the background color for my page: */
+body{
+    background-color: rgb(214, 233, 245);
+ 
+}
+h1{
+    font-family: 'Merriweather', serif;
+    color:rgb(255, 255, 255);
+    background-color: rgb(9, 65, 138);
+    text-align: center;
+}
+h2{
+    color:rgb(9, 65, 138);
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+/* Choose the appearance of the tags, h1, h3 and p: */h3, p{
+    color:rgb(9, 65, 138);
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 0.8px;
+}
+    
+.myWeek1{
+    margin: auto;
+    max-width: 600px;
+
+}
+
+
+/* Set the appearance of the class, chart */
+.chart{
+    background-color: rgb(255, 255, 255);
+    width:330px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: rgb(40, 6, 163);
+
+    
+}
