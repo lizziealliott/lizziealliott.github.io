@@ -37,24 +37,22 @@
 <!-- Portfolio -->
 
 <h2>PORTFOLIO</h2>  
-<div class="wrap"> 
 
+<div class="wrap"> 
+    <p>Week 1<p>
 
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
-    <div class="myWeek1">
-    
-        <p>Week 1<p>
+    <div class="myWeek2">
 
         <h3>UK Inflation</h3>
         <p>The first chart tracks UK CPI (including housing costs) from 1989 to 2021.</p>
         <div class="chart" id="Chart1"></div>
 
         <h3>Bank of England Policy Rate</h3>
-        <p>My second chart looks at the UK's Central Bank Rate from 1975 to 2020.</p>
+        <p>The second chart follows the UK's Central Bank Rate from 1975 to 2020.</p>
         <div class="chart" id="Chart2"> </div>
     </div> 
-    <div class="myWeek1">
-        <p>Week 2<p>
+    <div class="myWeek2">
 
 <script>
     //Define charts:
@@ -65,5 +63,28 @@
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
 </script>
+
+ <p>Week 2<p>
+    <div class="myWeek1">
+        <h3>Class Chart</h3>
+        <p>The first chart shows outstanding IMF lending from 1984 to 2022.</p>
+        <div class="chart" id="Chart3"></div>
+
+        <h3>Adapted Chart</h3>
+        <p>The second chart has adjusted the above for inflation.</p>
+        <div class="chart" id="Chart4"> </div>
+    </div> 
+    <div class="myWeek2">
+
+<script>
+    //Define charts:
+    var myChart3 = "visualization.json";
+    var myChart4 = "visualization.json";
+
+    // Embed charts:
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
+
+</script>     
 
 </html>
