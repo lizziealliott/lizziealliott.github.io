@@ -1,4 +1,5 @@
 
+<!-- Set up -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,31 +7,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Link to my style sheet -->
     <link rel="stylesheet" href="portfolio.css">
 
-    <!--The next three lines allow the Vega embed-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 
+<!-- Head -->
+
 <head>
-<!-- Title for the page -->
 <title>Lizzie Alliott Data Science</title>
 <h1>DATA SCIENCE PROJECT</h1> 
-<!-- Header -->
 <p> Lizzie Alliott | 2035392 </p>
-
 </head>
+
+<!-- Body -->
 
 <body>
   <div class="wrap">    
-    <!--these are links to webpages within your website-->
-    <a href="https://rapidcharts.io/datascience" id="link1">About</a>
-    <a href="index.html" id="link3">My Project</a> 
-    <a href="portfolio.html" id="link2">Portfolio</a>
-    <a href="https://github.com/lizziealliott" id="link4">GitHub</a> 
+    <a href="https://rapidcharts.io/datascience" id="link1">ABOUT</a>
+    <a href="index.html" id="link3">PROJECT</a>
+    <a href="portfolio.html" id="link2">PORTFOLIO</a>
+    <a href="https://github.com/lizziealliott" id="link4">GITHUB</a> 
   </div>
 
 
@@ -39,16 +37,17 @@
 <h2>PORTFOLIO</h2>  
 
 <div class="wrap"> 
-    <p>Week 1<p>
+
+    <h3>Week 1<h3>
 
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <div class="myWeek2">
 
-        <h3>UK Inflation</h3>
+        <p>UK Inflation<p>
         <p>The first chart tracks UK CPI (including housing costs) from 1989 to 2021.</p>
         <div class="chart" id="Chart1"></div>
 
-        <h3>Bank of England Policy Rate</h3>
+        <p>Bank of England Policy Rate<p>
         <p>The second chart follows the UK's Central Bank Rate from 1975 to 2020.</p>
         <div class="chart" id="Chart2"> </div>
     </div> 
@@ -64,13 +63,13 @@
     vegaEmbed('#Chart2', myChart2);
 </script>
 
- <p>Week 2<p>
+<h3>Week 2<h3>
     <div class="myWeek1">
-        <h3>Class Chart</h3>
+        <p>Class Chart<p>
         <p>The first chart shows outstanding IMF lending from 1984 to 2022.</p>
         <div class="chart" id="Chart3"></div>
 
-        <h3>Adapted Chart</h3>
+        <p>Adapted Chart<p>
         <p>The second chart has been adjusted to account for inflation. 1984 is the most risky year, not 2022.</p>
         <div class="chart" id="Chart4"> </div>
     </div> 

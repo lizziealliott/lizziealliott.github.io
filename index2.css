@@ -4,23 +4,209 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&family=League+Gothic&family=Merriweather:wght@400;900&family=Wire+One&display=swap');
 
+/* AREAS OF THE PAGE */
 
-
-/* Set the background color for my page: */
 body{
-    background-color: rgb(185, 228, 232);
- 
+    background-color: rgb(198, 230, 255);
 }
 
-/* Choose the appearance of the tags, h1, h3 and p: */
 h1, h2, h3, p{
+
+    text-align: center;
+    
+    }
+h1{
+    font-family: 'Merriweather', serif;
+    color:rgb(255, 255, 255);
+    background-color: rgb(198, 230, 255);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    color:rgb(255, 255, 255);
+    background-color: rgb(198, 230, 255);
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: larger;
+    line-height: 3;
+}
+
+h3{
     color:rgb(9, 65, 138);
     font-family: 'Merriweather', serif;
     text-align: center;
-    line-height: 2;
-    letter-spacing: 1.5px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight:700;
+    font-size: small;
 }
+h4{
+    color:rgb(9, 65, 138);
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-weight:500;
+    font-size: small;
+}
+
+
+p{
+    font-family: 'Merriweather', serif;
+    color:rgb(0, 67, 138);
+    text-align: center;
+    font-weight:400;
+    font-size: small;
+}
+
+
+/* BUTTONS */
+
+a{
+    border: 5px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#link1{
+    background-color: rgba(255, 255, 255, 0.5);
+
+    padding:10px;
     
+    border:2px;
+    border-color:rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 2px;
+
+    font-family: 'Merriweather', serif;
+    font-weight:400;
+    color:rgb(9, 65, 138);
+    text-decoration: none;
+    text-align: center;
+    
+}
+#link1:hover{
+
+    background-color: rgba(255, 255, 255, 0.8);
+    border:2px;
+    border-color:rgb(9, 65, 138);
+    border-style: solid;
+    text-align: center;
+
+    
+}
+#link2{
+    background-color: rgba(255, 255, 255, 0.5);
+
+    padding:10px;
+    
+    border:2px;
+    border-color:rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 2px;
+
+    font-family: 'Merriweather', serif;
+    font-weight:400;
+    color:rgb(9, 65, 138);
+    text-decoration: none;
+    text-align: center;
+    
+}
+#link2:hover{
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border:2px;
+    border-color:rgb(9, 65, 138);
+    border-style: solid;
+    text-align: center;
+
+    
+}
+#link3{
+    background-color: rgba(255, 255, 255, 0.5);
+
+    padding:10px;
+    
+    border:2px;
+    border-color:rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 2px;
+
+    font-family: 'Merriweather', serif;
+    font-weight:400;
+    color:rgb(9, 65, 138);
+    text-decoration: none;
+    text-align: center;
+
+    
+}
+
+#link3:hover{
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border:2px;
+    border-color:rgb(9, 65, 138);
+    border-style: solid;
+    text-align: center;
+
+
+    
+}
+
+
+#link4{
+    background-color: rgba(255, 255, 255, 0.5);
+
+    padding:10px;
+    
+    border:2px;
+    border-color:rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 2px;
+
+    font-family: 'Merriweather', serif;
+    font-weight:400;
+    color:rgb(9, 65, 138);
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+#link4:hover{
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border:2px;
+    border-color:rgb(9, 65, 138);
+    border-style: solid;
+    text-align: center;
+
+    
+}
+
+.wrap a {
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    padding-top: clamp(0.5em,3%,1.5em);
+    padding-bottom: clamp(0.5em,3%,1.5em);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+    width: 23.3%;
+
+  }
+
+
 .myWeek1{
     margin: auto;
     max-width: 600px;
@@ -39,62 +225,21 @@ h1, h2, h3, p{
     
 }
 
-/* FONTS: */
-/* Import a font */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap" rel="stylesheet"');
-
-h1{
-    font-family: 'Merriweather', serif;
-    color:rgb(255, 255, 255);
-    background-color: rgb(9, 65, 138);
-    text-align: center;
-}
-
-p{
-    font-family: 'Merriweather', serif;
-    font-size: larger;
-    color:rgb(9, 65, 138);
-    text-align: center;
-  
-}
-
-
-/* AREAS OF THE PAGE */
-
-body{
-    background-color: rgb(218, 234, 244);
-}
-
-  
-    .wrap a {
-      float: left;
-      list-style-type: none;
-      color: #f2f2f2;
-      text-align: center;
-      padding-top: clamp(0.5em,3%,1.5em);
-      padding-bottom: clamp(0.5em,3%,1.5em);
-      text-decoration: none;
-      font-size: 1.1em;
-      font-family: 'Merriweather', serif;
-      cursor: pointer;
-      width: 23.3%;
-
-    }
-      
-h1, h2, h3, p{
-
-    text-align: center;
-    
-    }
-    
-
-/* BUTTONS */
-
-a{
-    border: 5px;
-    border-color: black;
-    border-style: solid;
-    text-align: center;
+.myWeek2{
     margin: auto;
+    max-width: 600px;
 
 }
+
+/* Set the apperance of the class, chart */
+.chart{
+    background-color: rgb(255, 255, 255);
+    width:400px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: rgb(40, 6, 163);
+
+}
+
+  
