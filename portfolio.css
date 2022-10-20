@@ -242,4 +242,19 @@ a{
 
 }
 
-  
+.myWeek3{
+    margin: auto;
+    max-width: 800px;
+
+}
+
+/* Set the apperance of the class, chart */
+.chart{
+    background-color: rgb(255, 255, 255);
+    width:400px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: rgb(40, 6, 163);
+
+}
