@@ -1,6 +1,16 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+
+  "description": "Premier League Top Goal Scorers",
+
+   "title": {
+    "text": "Premier League Top Goal Scorers",
+    "subtitle":"Source: Premier League",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
   "data": {
     "values": [
       {"Player": "Alan Shearer", "Stat": 260},
@@ -31,7 +41,7 @@
   },
   "layer": [
     {"mark": "bar"},
-    {"mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 3}}
+    {"mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 3, "color": "#190387"}}
   ],
   "config": {}
 }

@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-    "text": "IMF Credit Outstanding % of GDP ",
-    "subtitle": "As a Percent of World GDP, current prices, source:IMF",
+    "text": "IMF Credit Outstanding (proportion of GDP)",
+    "subtitle": "As a proportion of World GDP, current prices, source:IMF",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     
