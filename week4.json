@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
+  "data": {
+    "values": [
+      {"Player": "Alan Shearer", "Stat": 260},
+      {"Player": "Wayne Rooney", "Stat": 208},
+      {"Player": "Harry Kane", "Stat": 195},
+      {"Player": "Andrew Cole", "Stat": 187},
+      {"Player": "Sergio Agüero", "Stat": 184},
+      {"Player": "Frank Lampard", "Stat": 177},
+      {"Player": "Thierry Henry", "Stat": 175},
+      {"Player": "Robbie Fowler", "Stat": 163},
+      {"Player": "Jermain Defoe", "Stat": 162},
+      {"Player": "Michael Owen", "Stat": 150},
+      {"Player": "Les Ferdinand", "Stat": 149},
+      {"Player": "Teddy Sheringham", "Stat": 146},
+      {"Player": "Robin van Persie", "Stat": 144},
+      {"Player": "Jamie Vardy", "Stat": 134},
+      {"Player": "Jimmy Floyd Hasselbaink", "Stat": 127},
+      {"Player": "Robbie Keane", "Stat": 126},
+      {"Player": "Mohamed Salah", "Stat": 126},
+      {"Player": "Nicolas Anelka", "Stat": 125},
+      {"Player": "Dwight Yorke", "Stat": 123},
+      {"Player": "Romelu Lukaku", "Stat": 121}
+    ]
+  },
+  "encoding": {
+    "y": {"field": "Player", "type": "ordinal", "sort": [null]},
+    "x": {"field": "Stat", "type": "quantitative"}
+  },
+  "layer": [
+    {"mark": "bar"},
+    {"mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 3}}
+  ],
+  "config": {}
+}
