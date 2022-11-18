@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+    "text": "Asia base map",
+    "subtitle": "Source: https://geojson-maps.ash.ms/",
+    "anchor": "start",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10
+    },
+    "width": 500,
+    "height": 400,
+    "data": {
+    "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/custom.geo%20(1).json",
+    "format": {"property": "features"}
+    },
+    "projection": {"type": "mercator"},
+    
+    "transform": [
+    {
+    "lookup": "properties.name",
+    "from": {
+    "data": {
+    "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/map2week7.csv"
+    },
+    "key": "country",
+    "fields": ["population"]
+    }
+    }
+    ],
+    "mark": {"type": "geoshape", "stroke": "darkgrey", "strokeWidth": 0.5},
+    "encoding": {
+    "tooltip": [
+    {"field": "properties.name", "type": "nominal", "title": "Country"},
+    {
+    "field": "population",
+    "title": "Population 2022"
+    }
+    ],
+    "color": {
+    "field": "population",
+    "type": "quantitative",
+    "title": "Population 2022"
+    }
+    }
+    }

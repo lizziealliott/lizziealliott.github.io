@@ -35,6 +35,10 @@
       {"Player": "Romelu Lukaku", "Stat": 121}
     ]
   },
+"height": 300,
+"width": 300,
+"mark": {"type": "bar", "color": "rgb(0,47,167"},
+
   "encoding": {
     "y": {"field": "Player", "type": "ordinal", "sort": [null]},
     "x": {"field": "Stat", "type": "quantitative"}
