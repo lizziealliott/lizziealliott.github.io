@@ -116,6 +116,7 @@ height: 100%;
 /* Set the apperance of the class, chart */
 .chart{
   background-color: white;
+  display: inline-table; /*this is what puts charts side by side*/
   padding: 0.2em  !important;
   text-align: center; 
   border-width: .2em;
@@ -139,6 +140,7 @@ height: 100%;
 
 .chart2{
   background-color: white;
+  display: inline-table; /*this is what puts charts side by side*/
   padding: 0.2em  !important;
   text-align: center; 
   border-width: .2em;
