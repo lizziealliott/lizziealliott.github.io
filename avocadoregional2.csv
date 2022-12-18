@@ -7,6 +7,7 @@ quote_date,region,item_id,date,priceMean,priceSD,region,country,obs,_merge
 202101,7,212710,396,0.79424244,0.13031285,West Midlands (England),England,3518149,matched (3)
 202101,8,212710,396,0.84703702,0.18352981,Yorkshire and The Humber,England,3408323,matched (3)
 202101,9,212710,396,0.81131577,0.28698027,North West (England),England,4294065,matched (3)
+202101,10,212710,396,0.74555558,0.21530341,North East (England),England,2321737,matched (3)
 202101,11,212710,396,0.80333334,0.16542873,Wales,Wales,2216742,matched (3)
 202101,12,212710,396,0.75928575,0.13917558,Scotland,Scotland,3385786,matched (3)
 202101,13,212710,396,0.84285712,0.17065699,Northern Ireland,Northern Ireland,1518537,matched (3)
