@@ -1,0 +1,12 @@
+quote_date,region,item_id,date,priceMean,priceSD,region,country,obs,_merge
+202101,2,212710,396,0.85891306,0.31891644,London,England,4475848,matched (3)
+202101,3,212710,396,0.91873014,0.34272859,South East (England),England,5785278,matched (3)
+202101,4,212710,396,0.72192311,0.21879706,South West (England),England,3597289,matched (3)
+202101,5,212710,396,0.80800003,0.32497782,East,England,3204009,matched (3)
+202101,6,212710,396,0.94333333,0.31287748,East Midlands (England),England,2976879,matched (3)
+202101,7,212710,396,0.79424244,0.13031285,West Midlands (England),England,3518149,matched (3)
+202101,8,212710,396,0.84703702,0.18352981,Yorkshire and The Humber,England,3408323,matched (3)
+202101,9,212710,396,0.81131577,0.28698027,North West (England),England,4294065,matched (3)
+202101,11,212710,396,0.80333334,0.16542873,Wales,Wales,2216742,matched (3)
+202101,12,212710,396,0.75928575,0.13917558,Scotland,Scotland,3385786,matched (3)
+202101,13,212710,396,0.84285712,0.17065699,Northern Ireland,Northern Ireland,1518537,matched (3)
