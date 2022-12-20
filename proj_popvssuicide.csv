@@ -1,54 +1,54 @@
-State,Bachelors Degree or higher,Rate,Deaths
-Alabama,27.43%,16,793
-Alaska,32.79%,27.5,204
-Arizona,32.43%,17.6,1363
-Arkansas,25.27%,19,583
-California,36.19%,10,4144
-Colorado,44.42%,21.5,1302
-Connecticut,42.13%,9.3,364
-Delaware,35.62%,12.3,124
-District of Columbia,63.05%,,
-Florida,33.16%,13.2,3135
-Georgia,34.63%,13.7,1491
-Hawaii,35.30%,12.9,184
-Idaho,30.72%,23.2,419
-Illinois,37.14%,10.5,1362
-Indiana,28.88%,15,1024
-Iowa,30.54%,18,552
-Kansas,35.40%,18.4,531
-Kentucky,26.98%,17.7,801
-Louisiana,26.45%,13.7,642
-Maine,35.99%,16.4,234
-Maryland,42.55%,9.2,585
-Massachusetts,46.62%,8.4,618
-Michigan,31.67%,14,1444
-Minnesota,38.90%,13.1,758
-Mississippi,24.78%,13.9,410
-Missouri,31.72%,18.2,1125
-Montana,34.80%,26.1,300
-Nebraska,34.45%,14.9,283
-Nevada,27.57%,18.2,603
-New Hampshire,40.25%,16.4,234
-New Jersey,43.10%,7.1,679
-New Mexico,30.05%,24.2,516
-New York,39.92%,8,1642
-North Carolina,34.91%,13.2,1441
-North Dakota,31.74%,18.2,135
-Ohio,30.72%,13.8,1644
-Oklahoma,27.92%,21.9,869
-Oregon,36.33%,18.3,833
-Pennsylvania,34.54%,12.6,1694
-Puerto Rico,28.48%,,
-Rhode Island,36.50%,8.5,94
-South Carolina,31.53%,16.3,868
-South Dakota,31.67%,21,186
-Tennessee,30.48%,17.2,1220
-Texas,33.12%,13.3,3924
-Utah,36.81%,20.8,651
-Vermont,44.44%,18.1,117
-Virginia,41.81%,13.5,1202
-Washington,38.97%,15.2,1212
-West Virginia,24.12%,19.4,354
-Wisconsin,32.54%,14.5,866
-Wyoming,29.24%,30.5,182
-United States,34.95%,,
+State,Education Rate,Suicide Rate
+Alabama,27.43,16
+Alaska,32.79,27.5
+Arizona,32.43,17.6
+Arkansas,25.27,19
+California,36.19,10
+Colorado,44.42,21.5
+Connecticut,42.13,9.3
+Delaware,35.62,12.3
+District of Columbia,63.05,
+Florida,33.16,13.2
+Georgia,34.63,13.7
+Hawaii,35.3,12.9
+Idaho,30.72,23.2
+Illinois,37.14,10.5
+Indiana,28.88,15
+Iowa,30.54,18
+Kansas,35.4,18.4
+Kentucky,26.98,17.7
+Louisiana,26.45,13.7
+Maine,35.99,16.4
+Maryland,42.55,9.2
+Massachusetts,46.62,8.4
+Michigan,31.67,14
+Minnesota,38.9,13.1
+Mississippi,24.78,13.9
+Missouri,31.72,18.2
+Montana,34.8,26.1
+Nebraska,34.45,14.9
+Nevada,27.57,18.2
+New Hampshire,40.25,16.4
+New Jersey,43.1,7.1
+New Mexico,30.05,24.2
+New York,39.92,8
+North Carolina,34.91,13.2
+North Dakota,31.74,18.2
+Ohio,30.72,13.8
+Oklahoma,27.92,21.9
+Oregon,36.33,18.3
+Pennsylvania,34.54,12.6
+Puerto Rico,28.48,
+Rhode Island,36.5,8.5
+South Carolina,31.53,16.3
+South Dakota,31.67,21
+Tennessee,30.48,17.2
+Texas,33.12,13.3
+Utah,36.81,20.8
+Vermont,44.44,18.1
+Virginia,41.81,13.5
+Washington,38.97,15.2
+West Virginia,24.12,19.4
+Wisconsin,32.54,14.5
+Wyoming,29.24,30.5
+United States,34.95,
