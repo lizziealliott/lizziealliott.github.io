@@ -1,0 +1,992 @@
+[
+    {
+        "race": "Black",
+        "year": "1915",
+        "infant_mortality_rate": "195.20"
+    },
+    {
+        "race": "Black",
+        "year": "1916",
+        "infant_mortality_rate": "184.30"
+    },
+    {
+        "race": "Black",
+        "year": "1917",
+        "infant_mortality_rate": "173.40"
+    },
+    {
+        "race": "Black",
+        "year": "1918",
+        "infant_mortality_rate": "162.50"
+    },
+    {
+        "race": "Black",
+        "year": "1919",
+        "infant_mortality_rate": "134.30"
+    },
+    {
+        "race": "Black",
+        "year": "1920",
+        "infant_mortality_rate": "135.60"
+    },
+    {
+        "race": "Black",
+        "year": "1921",
+        "infant_mortality_rate": "110.70"
+    },
+    {
+        "race": "Black",
+        "year": "1922",
+        "infant_mortality_rate": "111.60"
+    },
+    {
+        "race": "Black",
+        "year": "1923",
+        "infant_mortality_rate": "119.90"
+    },
+    {
+        "race": "Black",
+        "year": "1924",
+        "infant_mortality_rate": "114.10"
+    },
+    {
+        "race": "Black",
+        "year": "1925",
+        "infant_mortality_rate": "112.00"
+    },
+    {
+        "race": "Black",
+        "year": "1926",
+        "infant_mortality_rate": "112.10"
+    },
+    {
+        "race": "Black",
+        "year": "1927",
+        "infant_mortality_rate": "99.90"
+    },
+    {
+        "race": "Black",
+        "year": "1928",
+        "infant_mortality_rate": "105.90"
+    },
+    {
+        "race": "Black",
+        "year": "1929",
+        "infant_mortality_rate": "101.50"
+    },
+    {
+        "race": "Black",
+        "year": "1930",
+        "infant_mortality_rate": "99.50"
+    },
+    {
+        "race": "Black",
+        "year": "1931",
+        "infant_mortality_rate": "92.70"
+    },
+    {
+        "race": "Black",
+        "year": "1932",
+        "infant_mortality_rate": "84.10"
+    },
+    {
+        "race": "Black",
+        "year": "1933",
+        "infant_mortality_rate": "85.40"
+    },
+    {
+        "race": "Black",
+        "year": "1934",
+        "infant_mortality_rate": "91.00"
+    },
+    {
+        "race": "Black",
+        "year": "1935",
+        "infant_mortality_rate": "81.90"
+    },
+    {
+        "race": "Black",
+        "year": "1936",
+        "infant_mortality_rate": "86.10"
+    },
+    {
+        "race": "Black",
+        "year": "1937",
+        "infant_mortality_rate": "82.00"
+    },
+    {
+        "race": "Black",
+        "year": "1938",
+        "infant_mortality_rate": "77.90"
+    },
+    {
+        "race": "Black",
+        "year": "1939",
+        "infant_mortality_rate": "73.20"
+    },
+    {
+        "race": "Black",
+        "year": "1940",
+        "infant_mortality_rate": "72.90"
+    },
+    {
+        "race": "Black",
+        "year": "1941",
+        "infant_mortality_rate": "74.10"
+    },
+    {
+        "race": "Black",
+        "year": "1942",
+        "infant_mortality_rate": "64.20"
+    },
+    {
+        "race": "Black",
+        "year": "1943",
+        "infant_mortality_rate": "61.50"
+    },
+    {
+        "race": "Black",
+        "year": "1944",
+        "infant_mortality_rate": "59.30"
+    },
+    {
+        "race": "Black",
+        "year": "1945",
+        "infant_mortality_rate": "56.20"
+    },
+    {
+        "race": "Black",
+        "year": "1946",
+        "infant_mortality_rate": "48.80"
+    },
+    {
+        "race": "Black",
+        "year": "1947",
+        "infant_mortality_rate": "47.70"
+    },
+    {
+        "race": "Black",
+        "year": "1948",
+        "infant_mortality_rate": "45.70"
+    },
+    {
+        "race": "Black",
+        "year": "1949",
+        "infant_mortality_rate": "46.80"
+    },
+    {
+        "race": "Black",
+        "year": "1950",
+        "infant_mortality_rate": "43.90"
+    },
+    {
+        "race": "Black",
+        "year": "1951",
+        "infant_mortality_rate": "44.30"
+    },
+    {
+        "race": "Black",
+        "year": "1952",
+        "infant_mortality_rate": "46.90"
+    },
+    {
+        "race": "Black",
+        "year": "1953",
+        "infant_mortality_rate": "44.50"
+    },
+    {
+        "race": "Black",
+        "year": "1954",
+        "infant_mortality_rate": "42.90"
+    },
+    {
+        "race": "Black",
+        "year": "1955",
+        "infant_mortality_rate": "43.10"
+    },
+    {
+        "race": "Black",
+        "year": "1956",
+        "infant_mortality_rate": "42.40"
+    },
+    {
+        "race": "Black",
+        "year": "1957",
+        "infant_mortality_rate": "44.20"
+    },
+    {
+        "race": "Black",
+        "year": "1958",
+        "infant_mortality_rate": "46.30"
+    },
+    {
+        "race": "Black",
+        "year": "1959",
+        "infant_mortality_rate": "44.80"
+    },
+    {
+        "race": "Black",
+        "year": "1960",
+        "infant_mortality_rate": "44.30"
+    },
+    {
+        "race": "Black",
+        "year": "1961",
+        "infant_mortality_rate": "41.80"
+    },
+    {
+        "race": "Black",
+        "year": "1962",
+        "infant_mortality_rate": "42.60"
+    },
+    {
+        "race": "Black",
+        "year": "1963",
+        "infant_mortality_rate": "42.80"
+    },
+    {
+        "race": "Black",
+        "year": "1964",
+        "infant_mortality_rate": "42.30"
+    },
+    {
+        "race": "Black",
+        "year": "1965",
+        "infant_mortality_rate": "41.70"
+    },
+    {
+        "race": "Black",
+        "year": "1966",
+        "infant_mortality_rate": "40.20"
+    },
+    {
+        "race": "Black",
+        "year": "1967",
+        "infant_mortality_rate": "37.50"
+    },
+    {
+        "race": "Black",
+        "year": "1968",
+        "infant_mortality_rate": "36.20"
+    },
+    {
+        "race": "Black",
+        "year": "1969",
+        "infant_mortality_rate": "34.80"
+    },
+    {
+        "race": "Black",
+        "year": "1970",
+        "infant_mortality_rate": "33.30"
+    },
+    {
+        "race": "Black",
+        "year": "1971",
+        "infant_mortality_rate": "30.90"
+    },
+    {
+        "race": "Black",
+        "year": "1972",
+        "infant_mortality_rate": "30.30"
+    },
+    {
+        "race": "Black",
+        "year": "1973",
+        "infant_mortality_rate": "28.80"
+    },
+    {
+        "race": "Black",
+        "year": "1974",
+        "infant_mortality_rate": "27.50"
+    },
+    {
+        "race": "Black",
+        "year": "1975",
+        "infant_mortality_rate": "27.00"
+    },
+    {
+        "race": "Black",
+        "year": "1976",
+        "infant_mortality_rate": "26.40"
+    },
+    {
+        "race": "Black",
+        "year": "1977",
+        "infant_mortality_rate": "24.40"
+    },
+    {
+        "race": "Black",
+        "year": "1978",
+        "infant_mortality_rate": "23.90"
+    },
+    {
+        "race": "Black",
+        "year": "1979",
+        "infant_mortality_rate": "22.60"
+    },
+    {
+        "race": "Black",
+        "year": "1980",
+        "infant_mortality_rate": "22.20"
+    },
+    {
+        "race": "Black",
+        "year": "1981",
+        "infant_mortality_rate": "20.80"
+    },
+    {
+        "race": "Black",
+        "year": "1982",
+        "infant_mortality_rate": "20.50"
+    },
+    {
+        "race": "Black",
+        "year": "1983",
+        "infant_mortality_rate": "20.00"
+    },
+    {
+        "race": "Black",
+        "year": "1984",
+        "infant_mortality_rate": "19.20"
+    },
+    {
+        "race": "Black",
+        "year": "1985",
+        "infant_mortality_rate": "19.00"
+    },
+    {
+        "race": "Black",
+        "year": "1986",
+        "infant_mortality_rate": "18.90"
+    },
+    {
+        "race": "Black",
+        "year": "1987",
+        "infant_mortality_rate": "18.80"
+    },
+    {
+        "race": "Black",
+        "year": "1988",
+        "infant_mortality_rate": "18.50"
+    },
+    {
+        "race": "Black",
+        "year": "1989",
+        "infant_mortality_rate": "18.60"
+    },
+    {
+        "race": "Black",
+        "year": "1990",
+        "infant_mortality_rate": "18.00"
+    },
+    {
+        "race": "Black",
+        "year": "1991",
+        "infant_mortality_rate": "17.60"
+    },
+    {
+        "race": "Black",
+        "year": "1992",
+        "infant_mortality_rate": "16.80"
+    },
+    {
+        "race": "Black",
+        "year": "1993",
+        "infant_mortality_rate": "16.50"
+    },
+    {
+        "race": "Black",
+        "year": "1994",
+        "infant_mortality_rate": "15.80"
+    },
+    {
+        "race": "Black",
+        "year": "1995",
+        "infant_mortality_rate": "15.10"
+    },
+    {
+        "race": "Black",
+        "year": "1996",
+        "infant_mortality_rate": "14.70"
+    },
+    {
+        "race": "Black",
+        "year": "1997",
+        "infant_mortality_rate": "14.20"
+    },
+    {
+        "race": "Black",
+        "year": "1998",
+        "infant_mortality_rate": "14.30"
+    },
+    {
+        "race": "Black",
+        "year": "1999",
+        "infant_mortality_rate": "14.60"
+    },
+    {
+        "race": "Black",
+        "year": "2000",
+        "infant_mortality_rate": "14.10"
+    },
+    {
+        "race": "Black",
+        "year": "2001",
+        "infant_mortality_rate": "14.00"
+    },
+    {
+        "race": "Black",
+        "year": "2002",
+        "infant_mortality_rate": "14.40"
+    },
+    {
+        "race": "Black",
+        "year": "2003",
+        "infant_mortality_rate": "13.50"
+    },
+    {
+        "race": "Black",
+        "year": "2004",
+        "infant_mortality_rate": "13.25"
+    },
+    {
+        "race": "Black",
+        "year": "2005",
+        "infant_mortality_rate": "13.26"
+    },
+    {
+        "race": "Black",
+        "year": "2006",
+        "infant_mortality_rate": "12.90"
+    },
+    {
+        "race": "Black",
+        "year": "2007",
+        "infant_mortality_rate": "13.31"
+    },
+    {
+        "race": "Black",
+        "year": "2008",
+        "infant_mortality_rate": "12.67"
+    },
+    {
+        "race": "Black",
+        "year": "2009",
+        "infant_mortality_rate": "12.40"
+    },
+    {
+        "race": "Black",
+        "year": "2010",
+        "infant_mortality_rate": "11.46"
+    },
+    {
+        "race": "Black",
+        "year": "2011",
+        "infant_mortality_rate": "11.15"
+    },
+    {
+        "race": "Black",
+        "year": "2012",
+        "infant_mortality_rate": "10.87"
+    },
+    {
+        "race": "White",
+        "year": "1915",
+        "infant_mortality_rate": "98.60"
+    },
+    {
+        "race": "White",
+        "year": "1916",
+        "infant_mortality_rate": "99.00"
+    },
+    {
+        "race": "White",
+        "year": "1917",
+        "infant_mortality_rate": "98.20"
+    },
+    {
+        "race": "White",
+        "year": "1918",
+        "infant_mortality_rate": "97.40"
+    },
+    {
+        "race": "White",
+        "year": "1919",
+        "infant_mortality_rate": "83.00"
+    },
+    {
+        "race": "White",
+        "year": "1920",
+        "infant_mortality_rate": "82.10"
+    },
+    {
+        "race": "White",
+        "year": "1921",
+        "infant_mortality_rate": "72.50"
+    },
+    {
+        "race": "White",
+        "year": "1922",
+        "infant_mortality_rate": "73.20"
+    },
+    {
+        "race": "White",
+        "year": "1923",
+        "infant_mortality_rate": "73.50"
+    },
+    {
+        "race": "White",
+        "year": "1924",
+        "infant_mortality_rate": "66.80"
+    },
+    {
+        "race": "White",
+        "year": "1925",
+        "infant_mortality_rate": "68.30"
+    },
+    {
+        "race": "White",
+        "year": "1926",
+        "infant_mortality_rate": "70.00"
+    },
+    {
+        "race": "White",
+        "year": "1927",
+        "infant_mortality_rate": "60.60"
+    },
+    {
+        "race": "White",
+        "year": "1928",
+        "infant_mortality_rate": "64.00"
+    },
+    {
+        "race": "White",
+        "year": "1929",
+        "infant_mortality_rate": "63.20"
+    },
+    {
+        "race": "White",
+        "year": "1930",
+        "infant_mortality_rate": "60.10"
+    },
+    {
+        "race": "White",
+        "year": "1931",
+        "infant_mortality_rate": "57.40"
+    },
+    {
+        "race": "White",
+        "year": "1932",
+        "infant_mortality_rate": "53.30"
+    },
+    {
+        "race": "White",
+        "year": "1933",
+        "infant_mortality_rate": "52.80"
+    },
+    {
+        "race": "White",
+        "year": "1934",
+        "infant_mortality_rate": "54.50"
+    },
+    {
+        "race": "White",
+        "year": "1935",
+        "infant_mortality_rate": "51.90"
+    },
+    {
+        "race": "White",
+        "year": "1936",
+        "infant_mortality_rate": "52.90"
+    },
+    {
+        "race": "White",
+        "year": "1937",
+        "infant_mortality_rate": "50.30"
+    },
+    {
+        "race": "White",
+        "year": "1938",
+        "infant_mortality_rate": "47.10"
+    },
+    {
+        "race": "White",
+        "year": "1939",
+        "infant_mortality_rate": "44.30"
+    },
+    {
+        "race": "White",
+        "year": "1940",
+        "infant_mortality_rate": "43.20"
+    },
+    {
+        "race": "White",
+        "year": "1941",
+        "infant_mortality_rate": "41.20"
+    },
+    {
+        "race": "White",
+        "year": "1942",
+        "infant_mortality_rate": "37.30"
+    },
+    {
+        "race": "White",
+        "year": "1943",
+        "infant_mortality_rate": "37.50"
+    },
+    {
+        "race": "White",
+        "year": "1944",
+        "infant_mortality_rate": "36.90"
+    },
+    {
+        "race": "White",
+        "year": "1945",
+        "infant_mortality_rate": "35.60"
+    },
+    {
+        "race": "White",
+        "year": "1946",
+        "infant_mortality_rate": "31.80"
+    },
+    {
+        "race": "White",
+        "year": "1947",
+        "infant_mortality_rate": "30.10"
+    },
+    {
+        "race": "White",
+        "year": "1948",
+        "infant_mortality_rate": "29.90"
+    },
+    {
+        "race": "White",
+        "year": "1949",
+        "infant_mortality_rate": "28.90"
+    },
+    {
+        "race": "White",
+        "year": "1950",
+        "infant_mortality_rate": "26.80"
+    },
+    {
+        "race": "White",
+        "year": "1951",
+        "infant_mortality_rate": "25.80"
+    },
+    {
+        "race": "White",
+        "year": "1952",
+        "infant_mortality_rate": "25.50"
+    },
+    {
+        "race": "White",
+        "year": "1953",
+        "infant_mortality_rate": "25.00"
+    },
+    {
+        "race": "White",
+        "year": "1954",
+        "infant_mortality_rate": "23.90"
+    },
+    {
+        "race": "White",
+        "year": "1955",
+        "infant_mortality_rate": "23.60"
+    },
+    {
+        "race": "White",
+        "year": "1956",
+        "infant_mortality_rate": "23.20"
+    },
+    {
+        "race": "White",
+        "year": "1957",
+        "infant_mortality_rate": "23.30"
+    },
+    {
+        "race": "White",
+        "year": "1958",
+        "infant_mortality_rate": "23.80"
+    },
+    {
+        "race": "White",
+        "year": "1959",
+        "infant_mortality_rate": "23.20"
+    },
+    {
+        "race": "White",
+        "year": "1960",
+        "infant_mortality_rate": "22.90"
+    },
+    {
+        "race": "White",
+        "year": "1961",
+        "infant_mortality_rate": "22.40"
+    },
+    {
+        "race": "White",
+        "year": "1962",
+        "infant_mortality_rate": "22.30"
+    },
+    {
+        "race": "White",
+        "year": "1963",
+        "infant_mortality_rate": "22.20"
+    },
+    {
+        "race": "White",
+        "year": "1964",
+        "infant_mortality_rate": "21.60"
+    },
+    {
+        "race": "White",
+        "year": "1965",
+        "infant_mortality_rate": "21.50"
+    },
+    {
+        "race": "White",
+        "year": "1966",
+        "infant_mortality_rate": "20.60"
+    },
+    {
+        "race": "White",
+        "year": "1967",
+        "infant_mortality_rate": "19.70"
+    },
+    {
+        "race": "White",
+        "year": "1968",
+        "infant_mortality_rate": "19.20"
+    },
+    {
+        "race": "White",
+        "year": "1969",
+        "infant_mortality_rate": "18.40"
+    },
+    {
+        "race": "White",
+        "year": "1970",
+        "infant_mortality_rate": "17.60"
+    },
+    {
+        "race": "White",
+        "year": "1971",
+        "infant_mortality_rate": "17.00"
+    },
+    {
+        "race": "White",
+        "year": "1972",
+        "infant_mortality_rate": "16.20"
+    },
+    {
+        "race": "White",
+        "year": "1973",
+        "infant_mortality_rate": "15.60"
+    },
+    {
+        "race": "White",
+        "year": "1974",
+        "infant_mortality_rate": "14.70"
+    },
+    {
+        "race": "White",
+        "year": "1975",
+        "infant_mortality_rate": "14.00"
+    },
+    {
+        "race": "White",
+        "year": "1976",
+        "infant_mortality_rate": "13.20"
+    },
+    {
+        "race": "White",
+        "year": "1977",
+        "infant_mortality_rate": "12.20"
+    },
+    {
+        "race": "White",
+        "year": "1978",
+        "infant_mortality_rate": "11.90"
+    },
+    {
+        "race": "White",
+        "year": "1979",
+        "infant_mortality_rate": "11.30"
+    },
+    {
+        "race": "White",
+        "year": "1980",
+        "infant_mortality_rate": "10.90"
+    },
+    {
+        "race": "White",
+        "year": "1981",
+        "infant_mortality_rate": "10.30"
+    },
+    {
+        "race": "White",
+        "year": "1982",
+        "infant_mortality_rate": "9.90"
+    },
+    {
+        "race": "White",
+        "year": "1983",
+        "infant_mortality_rate": "9.60"
+    },
+    {
+        "race": "White",
+        "year": "1984",
+        "infant_mortality_rate": "9.30"
+    },
+    {
+        "race": "White",
+        "year": "1985",
+        "infant_mortality_rate": "9.20"
+    },
+    {
+        "race": "White",
+        "year": "1986",
+        "infant_mortality_rate": "8.80"
+    },
+    {
+        "race": "White",
+        "year": "1987",
+        "infant_mortality_rate": "8.50"
+    },
+    {
+        "race": "White",
+        "year": "1988",
+        "infant_mortality_rate": "8.40"
+    },
+    {
+        "race": "White",
+        "year": "1989",
+        "infant_mortality_rate": "8.10"
+    },
+    {
+        "race": "White",
+        "year": "1990",
+        "infant_mortality_rate": "7.60"
+    },
+    {
+        "race": "White",
+        "year": "1991",
+        "infant_mortality_rate": "7.30"
+    },
+    {
+        "race": "White",
+        "year": "1992",
+        "infant_mortality_rate": "6.90"
+    },
+    {
+        "race": "White",
+        "year": "1993",
+        "infant_mortality_rate": "6.80"
+    },
+    {
+        "race": "White",
+        "year": "1994",
+        "infant_mortality_rate": "6.60"
+    },
+    {
+        "race": "White",
+        "year": "1995",
+        "infant_mortality_rate": "6.30"
+    },
+    {
+        "race": "White",
+        "year": "1996",
+        "infant_mortality_rate": "6.10"
+    },
+    {
+        "race": "White",
+        "year": "1997",
+        "infant_mortality_rate": "6.00"
+    },
+    {
+        "race": "White",
+        "year": "1998",
+        "infant_mortality_rate": "6.00"
+    },
+    {
+        "race": "White",
+        "year": "1999",
+        "infant_mortality_rate": "5.80"
+    },
+    {
+        "race": "White",
+        "year": "2000",
+        "infant_mortality_rate": "5.70"
+    },
+    {
+        "race": "White",
+        "year": "2001",
+        "infant_mortality_rate": "5.70"
+    },
+    {
+        "race": "White",
+        "year": "2002",
+        "infant_mortality_rate": "5.80"
+    },
+    {
+        "race": "White",
+        "year": "2003",
+        "infant_mortality_rate": "5.72"
+    },
+    {
+        "race": "White",
+        "year": "2004",
+        "infant_mortality_rate": "5.66"
+    },
+    {
+        "race": "White",
+        "year": "2005",
+        "infant_mortality_rate": "5.73"
+    },
+    {
+        "race": "White",
+        "year": "2006",
+        "infant_mortality_rate": "5.57"
+    },
+    {
+        "race": "White",
+        "year": "2007",
+        "infant_mortality_rate": "5.63"
+    },
+    {
+        "race": "White",
+        "year": "2008",
+        "infant_mortality_rate": "5.52"
+    },
+    {
+        "race": "White",
+        "year": "2009",
+        "infant_mortality_rate": "5.33"
+    },
+    {
+        "race": "White",
+        "year": "2010",
+        "infant_mortality_rate": "5.18"
+    },
+    {
+        "race": "White",
+        "year": "2011",
+        "infant_mortality_rate": "5.12"
+    },
+    {
+        "race": "White",
+        "year": "2012",
+        "infant_mortality_rate": "5.09"
+    },
+    {
+        "race": "White",
+        "year": "2013",
+        "infant_mortality_rate": "5.07"
+    },
+    {
+        "race": "Black ",
+        "year": "2013",
+        "infant_mortality_rate": "10.81"
+    }
+]
