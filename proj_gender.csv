@@ -1,0 +1,35 @@
+Sex,Age,Pneumonia and Covid-19 Deaths
+Male,All Ages,313202
+Male,Under 1 year,39
+Male,0-17 years,196
+Male,1-4 years,27
+Male,5-14 years,70
+Male,15-24 years,711
+Male,18-29 years,1846
+Male,25-34 years,3507
+Male,30-39 years,5945
+Male,35-44 years,9257
+Male,40-49 years,14803
+Male,45-54 years,23872
+Male,50-64 years,66417
+Male,55-64 years,51724
+Male,65-74 years,80375
+Male,75-84 years,83907
+Male,85 years and over,59713
+Female,All Ages,232534
+Female,Under 1 year,27
+Female,0-17 years,157
+Female,1-4 years,21
+Female,5-14 years,55
+Female,15-24 years,514
+Female,18-29 years,1240
+Female,25-34 years,2209
+Female,30-39 years,3620
+Female,35-44 years,5708
+Female,40-49 years,8895
+Female,45-54 years,13679
+Female,50-64 years,41606
+Female,55-64 years,33305
+Female,65-74 years,54379
+Female,75-84 years,60752
+Female,85 years and over,61885
