@@ -1,4 +1,4 @@
-State,Nominal_GDP_per_capita_2022Q3,Mean_income_2022,PercentHighSchoolOrHigher,lifeExp
+State,GDP,Income,Education,Life
 Alabama,54652.00,71964.00,86.90,73.20
 Alaska,87782.00,98811.00,93.10,76.60
 Arizona,62342.00,84380.00,87.90,76.30
