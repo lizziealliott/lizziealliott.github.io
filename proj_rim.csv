@@ -1,6 +1,4 @@
-Unit,Mother,Year,Value
-"Infant deaths per 1,000 live births",White,1983,9.3
-"Infant deaths per 1,000 live births",White,1985,8.9
+Unit,Name,Year,Value
 "Infant deaths per 1,000 live births",White,1990,7.3
 "Infant deaths per 1,000 live births",White,1995,6.3
 "Infant deaths per 1,000 live births",White,1996,6.1
@@ -26,8 +24,6 @@ Unit,Mother,Year,Value
 "Infant deaths per 1,000 live births",White,2016,4.9
 "Infant deaths per 1,000 live births",White,2017,4.9
 "Infant deaths per 1,000 live births",White,2018,4.8
-"Infant deaths per 1,000 live births",Black or African American,1983,19.2
-"Infant deaths per 1,000 live births",Black or African American,1985,18.6
 "Infant deaths per 1,000 live births",Black or African American,1990,16.9
 "Infant deaths per 1,000 live births",Black or African American,1995,14.6
 "Infant deaths per 1,000 live births",Black or African American,1996,14.1
@@ -53,8 +49,6 @@ Unit,Mother,Year,Value
 "Infant deaths per 1,000 live births",Black or African American,2016,10.8
 "Infant deaths per 1,000 live births",Black or African American,2017,10.4
 "Infant deaths per 1,000 live births",Black or African American,2018,10.3
-"Infant deaths per 1,000 live births",American Indian or Alaska Native,1983,15.2
-"Infant deaths per 1,000 live births",American Indian or Alaska Native,1985,13.1
 "Infant deaths per 1,000 live births",American Indian or Alaska Native,1990,13.1
 "Infant deaths per 1,000 live births",American Indian or Alaska Native,1995,9
 "Infant deaths per 1,000 live births",American Indian or Alaska Native,1996,10
@@ -80,8 +74,6 @@ Unit,Mother,Year,Value
 "Infant deaths per 1,000 live births",American Indian or Alaska Native,2016,8.6
 "Infant deaths per 1,000 live births",American Indian or Alaska Native,2017,8.3
 "Infant deaths per 1,000 live births",American Indian or Alaska Native,2018,7.7
-"Infant deaths per 1,000 live births",Asian or Pacific Islander,1983,8.3
-"Infant deaths per 1,000 live births",Asian or Pacific Islander,1985,7.8
 "Infant deaths per 1,000 live births",Asian or Pacific Islander,1990,6.6
 "Infant deaths per 1,000 live births",Asian or Pacific Islander,1995,5.3
 "Infant deaths per 1,000 live births",Asian or Pacific Islander,1996,5.2
@@ -104,11 +96,9 @@ Unit,Mother,Year,Value
 "Infant deaths per 1,000 live births",Asian or Pacific Islander,2013,4.1
 "Infant deaths per 1,000 live births",Asian or Pacific Islander,2014,3.9
 "Infant deaths per 1,000 live births",Asian or Pacific Islander,2015,4.2
-"Infant deaths per 1,000 live births",Asian or Pacific Islander,2016,4.0
+"Infant deaths per 1,000 live births",Asian or Pacific Islander,2016,4
 "Infant deaths per 1,000 live births",Asian or Pacific Islander,2017,4.2
 "Infant deaths per 1,000 live births",Asian or Pacific Islander,2018,4.1
-"Infant deaths per 1,000 live births",Hispanic or Latina: All races,1983,9.5
-"Infant deaths per 1,000 live births",Hispanic or Latina: All races,1985,8.8
 "Infant deaths per 1,000 live births",Hispanic or Latina: All races,1990,7.5
 "Infant deaths per 1,000 live births",Hispanic or Latina: All races,1995,6.3
 "Infant deaths per 1,000 live births",Hispanic or Latina: All races,1996,6.1
@@ -134,14 +124,6 @@ Unit,Mother,Year,Value
 "Infant deaths per 1,000 live births",Hispanic or Latina: All races,2016,5
 "Infant deaths per 1,000 live births",Hispanic or Latina: All races,2017,5.1
 "Infant deaths per 1,000 live births",Hispanic or Latina: All races,2018,4.9
-"Infant deaths per 1,000 live births",White,2017,4.8
-"Infant deaths per 1,000 live births",White,2018,4.7
-"Infant deaths per 1,000 live births",Black or African American,2017,10.5
-"Infant deaths per 1,000 live births",Black or African American,2018,10.5
-"Infant deaths per 1,000 live births",American Indian or Alaska Native,2017,8.6
-"Infant deaths per 1,000 live births",American Indian or Alaska Native,2018,7.7
-"Infant deaths per 1,000 live births",Hispanic or Latina: All races,1983,9.5
-"Infant deaths per 1,000 live births",Hispanic or Latina: All races,1985,8.8
 "Infant deaths per 1,000 live births",Hispanic or Latina: All races,1990,7.5
 "Infant deaths per 1,000 live births",Hispanic or Latina: All races,1995,6.3
 "Infant deaths per 1,000 live births",Hispanic or Latina: All races,1996,6.1
@@ -167,3 +149,63 @@ Unit,Mother,Year,Value
 "Infant deaths per 1,000 live births",Hispanic or Latina: All races,2016,5
 "Infant deaths per 1,000 live births",Hispanic or Latina: All races,2017,5.1
 "Infant deaths per 1,000 live births",Hispanic or Latina: All races,2018,4.9
+"Infant deaths per 1,000 live births",UMI,1990,10.3
+"Infant deaths per 1,000 live births",UMI,1991,9.9
+"Infant deaths per 1,000 live births",UMI,1992,9.4
+"Infant deaths per 1,000 live births",UMI,1993,8.9
+"Infant deaths per 1,000 live births",UMI,1994,8.4
+"Infant deaths per 1,000 live births",UMI,1995,8
+"Infant deaths per 1,000 live births",UMI,1996,7.6
+"Infant deaths per 1,000 live births",UMI,1997,7.3
+"Infant deaths per 1,000 live births",UMI,1998,7
+"Infant deaths per 1,000 live births",UMI,1999,6.7
+"Infant deaths per 1,000 live births",UMI,2000,6.5
+"Infant deaths per 1,000 live births",UMI,2001,6.3
+"Infant deaths per 1,000 live births",UMI,2002,6.1
+"Infant deaths per 1,000 live births",UMI,2003,6
+"Infant deaths per 1,000 live births",UMI,2004,5.8
+"Infant deaths per 1,000 live births",UMI,2005,5.7
+"Infant deaths per 1,000 live births",UMI,2006,5.5
+"Infant deaths per 1,000 live births",UMI,2007,5.4
+"Infant deaths per 1,000 live births",UMI,2008,5.2
+"Infant deaths per 1,000 live births",UMI,2009,5.1
+"Infant deaths per 1,000 live births",UMI,2010,5
+"Infant deaths per 1,000 live births",UMI,2011,4.8
+"Infant deaths per 1,000 live births",UMI,2012,4.7
+"Infant deaths per 1,000 live births",UMI,2013,4.6
+"Infant deaths per 1,000 live births",UMI,2014,4.5
+"Infant deaths per 1,000 live births",UMI,2015,4.5
+"Infant deaths per 1,000 live births",UMI,2016,4.4
+"Infant deaths per 1,000 live births",UMI,2017,4.3
+"Infant deaths per 1,000 live births",UMI,2018,4.3
+"Infant deaths per 1,000 live births",UMI,2019,4.2
+"Infant deaths per 1,000 live births",UMI,2020,4.1
+"Infant deaths per 1,000 live births",HI,1990,41.2
+"Infant deaths per 1,000 live births",HI,1991,40.5
+"Infant deaths per 1,000 live births",HI,1992,39.6
+"Infant deaths per 1,000 live births",HI,1993,38.5
+"Infant deaths per 1,000 live births",HI,1994,37.3
+"Infant deaths per 1,000 live births",HI,1995,35.9
+"Infant deaths per 1,000 live births",HI,1996,34.6
+"Infant deaths per 1,000 live births",HI,1997,33.1
+"Infant deaths per 1,000 live births",HI,1998,31.6
+"Infant deaths per 1,000 live births",HI,1999,30.1
+"Infant deaths per 1,000 live births",HI,2000,28.5
+"Infant deaths per 1,000 live births",HI,2001,26.9
+"Infant deaths per 1,000 live births",HI,2002,25.3
+"Infant deaths per 1,000 live births",HI,2003,23.7
+"Infant deaths per 1,000 live births",HI,2004,22.2
+"Infant deaths per 1,000 live births",HI,2005,20.8
+"Infant deaths per 1,000 live births",HI,2006,19.5
+"Infant deaths per 1,000 live births",HI,2007,18.3
+"Infant deaths per 1,000 live births",HI,2008,17.1
+"Infant deaths per 1,000 live births",HI,2009,16
+"Infant deaths per 1,000 live births",HI,2010,15
+"Infant deaths per 1,000 live births",HI,2011,14.2
+"Infant deaths per 1,000 live births",HI,2012,13.4
+"Infant deaths per 1,000 live births",HI,2013,12.7
+"Infant deaths per 1,000 live births",HI,2014,12.1
+"Infant deaths per 1,000 live births",HI,2015,11.5
+"Infant deaths per 1,000 live births",HI,2016,11
+"Infant deaths per 1,000 live births",HI,2017,10.4
+"Infant deaths per 1,000 live births",HI,2018,10
