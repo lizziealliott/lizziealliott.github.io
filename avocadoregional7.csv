@@ -1,1 +1,14 @@
-region,item_id,pricerange,region,country2,212710,0.3072,London,England3,212710,0.2017,South East (England),England4,212710,0.3938,South West (England),England5,212710,0.2866,East,England6,212710,0.0881,East Midlands (England),England7,212710,0.3176,West Midlands (England),England8,212710,0.3152,Yorkshire and The Humber,England9,212710,0.2529,North West (England),England10,212710,0.3672,North East (England),England11,212710,0.4133,Wales,Wales12,212710,0.2414,Scotland,Scotland13,212710,0.2743,Northern Ireland,Northern Ireland
+region,item_id,percentchange,region,country
+2,212710,-17.25,London,England
+3,212710,-13.79,South East (England),England
+4,212710,-27.26,South West (England),England
+5,212710,-22.18,East,England
+6,212710,-4.58,East Midlands (England),England
+7,212710,-26.55,West Midlands (England),England
+8,212710,-23.56,Yorkshire and The Humber,England
+9,212710,-19.79,North West (England),England
+10,212710,-29.72,North East (England),England
+11,212710,-28.78,Wales,Wales
+12,212710,-17.29,Scotland,Scotland
+13,212710,-19.65,Northern Ireland,Northern Ireland
+,,,,
