@@ -10,12 +10,16 @@
     "subtitleFontSize":10,
     "anchor": "start",
     "color": "black"
+
   },
-  
+    "config": {
+    "background": " rgb(223, 240, 254)",
+    "view": {"stroke": "transparent"}
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ukMacro/M2.DataHub.MonetaryCPIHAnnRate.csv"},
-  "height": 300,
-  "width": 305,
+    "height": 340,
+    "width": 340,
   
   "encoding": {"x": {"field": "Month", "type": "temporal", "axis": {"title":null, "grid": false}}},
 

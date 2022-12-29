@@ -11,11 +11,14 @@
     "anchor": "start",
     "color": "black"
   },
-  
+  "config": {
+    "background": " rgb(223, 240, 254)",
+    "view": {"stroke": "transparent"}
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ukMacro/m3BankRate.csv"},
   "height": 340,
-  "width": 305,
+  "width": 340,
   
   "encoding": {"x": {"field": "Date", "type": "temporal", "axis": {"title":null, "grid": false}}},
 

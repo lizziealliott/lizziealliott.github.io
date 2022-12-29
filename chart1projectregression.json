@@ -1,0 +1,100 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+    "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/projectchart1.csv"
+    },
+    "height": 400,
+    "width": 350,
+    "title": {
+    "text": [
+    "Relationship between current health expenditure (% of GDP)",
+    "and life expectancy at birth (total years)."
+    ]
+    },
+    "layer": [
+    {
+    "mark": {
+    "type": "point",
+    "filled": true,
+    "color": "mediumorchid"
+    },
+    "encoding": {
+    "x": {
+    "field": "Life Expectancy",
+    "scale":{"domain": [51,85]},
+    "type": "quantitative",
+    "title": "life expectancy at birth (total years)"
+    },
+    "y": {
+    "field": "Percentage",
+    "type": "quantitative",
+    "title": "health expenditure (% of GDP)"
+    },
+    "tooltip": [
+    {
+    "field": "Country",
+    "type": "nominal"
+    },
+    {
+    "field": "Life Expectancy",
+    "type": "quantitative",
+    "title": "life expectancy at birth (total years)"
+    },
+    {
+    "field": "Percentage",
+    "type": "quantitative",
+    "title": "health expenditure (% of GDP)"
+    }
+    ]
+    }
+    },
+    {
+    "mark": {
+    "type": "line",
+    "color": "firebrick"
+    },
+    "transform": [
+    {
+    "regression": "Percentage",
+    "on": "Life Expectancy"
+    }
+    ],
+    "encoding": {
+    "x": {
+    "field": "Life Expectancy",
+    "type": "quantitative"
+    },
+    "y": {
+    "field": "Percentage",
+    "type": "quantitative"
+    }
+    }
+    },
+    {
+    "transform": [
+    {
+    "regression": "Percentage",
+    "on": "Life Expectancy",
+    "params": true
+    },
+    {
+    "calculate": "'R²: '+format(datum.rSquared, '.2f')",
+    "as": "R2"
+    }
+    ],
+    "mark": {
+    "type": "text",
+    "color": "grey",
+    "x": "width",
+    "align": "right",
+    "y": -5
+    },
+    "encoding": {
+    "text": {
+    "type": "nominal",
+    "field": "R2"
+    }
+    }
+    }
+    ]
+    }

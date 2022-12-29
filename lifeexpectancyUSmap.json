@@ -1,0 +1,44 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+     "width":700,
+     "height":500,
+    
+    "data":{
+     "url":"https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/maps/geoUSStates.json",
+     "format": {"property":"features"}},
+     
+     "projection": {
+    "type": "albersUsa"
+     },
+    
+     "transform": [
+    {
+     "lookup": "properties.NAME",
+     "from": {
+     "data": {
+     "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/statelifeexpectancy.csv"},
+     "key": "State",
+     "fields": ["Life Expectancy 2019"]
+     }
+    }
+     ],
+     "mark":{
+     "type": "geoshape",
+    "stroke": "white",
+     "strokeWidth": 0.8
+     },
+     "encoding":{
+    
+    "color":{
+     "field": "Life Expectancy 2019",
+     "type": "quantitative",
+    "scale": {"scheme": "lightorange"}
+    }, 
+    
+     "tooltip":[
+     {"field":"properties.NAME", "type": "nominal", "title":"State"},
+     {"field": "Life Expectancy 2019", "title": "Life Expectancy 2019"}
+    
+     ]
+    }}
+    

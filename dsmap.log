@@ -1,0 +1,307 @@
+-----------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/elizabethalliott/Documents/Bristol/Third Year
+> /Data Science /Core/dsmap.log
+  log type:  text
+ opened on:  24 Dec 2022, 11:45:36
+
+. 
+. clear
+
+. insheet using "proj_mapdata.csv"
+(8 vars, 8,021 obs)
+
+. 
+. br
+
+. 
+. drop if Stub3=="Under 18 years"
+Stub3 not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop if Stub3=="Under 18 years"
+Stub3 not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop if Stub3=="Under 18 years"
+Stub3 not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop if v8=="Under 18 years"
+(802 observations deleted)
+
+. 
+end of do-file
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. 
+. drop if v8=="Under 18 years"
+(0 observations deleted)
+
+. drop if v8=="Stub3"
+(1 observation deleted)
+
+. drop if v8=="Total"
+(802 observations deleted)
+
+. drop if v8=="No health insurance coverage"
+(2,406 observations deleted)
+
+. drop if v8=="18 to 64 years"
+(802 observations deleted)
+
+. drop if v8=="65 years or over"
+(802 observations deleted)
+
+. 
+. br
+
+. 
+end of do-file
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop v3 v4 v5 v7
+
+. 
+. br
+
+. 
+end of do-file
+
+. export delimited using "/Users/elizabethalliott/Documents/Brist
+> ol/Third Year/Data Science /Core/datamap2.csv", replace
+(note: file /Users/elizabethalliott/Documents/Bristol/Third Year/
+> Data Science /Core/datamap2.csv not found)
+file /Users/elizabethalliott/Documents/Bristol/Third Year/Data Sc
+> ience /Core/datamap2.csv saved
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. clear
+
+. insheet using "datamap2.csv"
+(5 vars, 2,735 obs)
+
+. br
+
+. 
+end of do-file
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop if v8=9=="."
+v8 not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop if v8=="."
+v8 not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. 
+. drop if v9=="."
+v9 not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop if v9==" "
+v9 not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop if v9<=0
+v9 not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop if v9>0
+v9 not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop if v9>=1
+v9 not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop if v5=="."
+(0 observations deleted)
+
+. br
+
+. 
+end of do-file
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop if v5<=5
+type mismatch
+r(109);
+
+end of do-file
+
+r(109);
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop if v5<5
+type mismatch
+r(109);
+
+end of do-file
+
+r(109);
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop if v5=="v9"
+(1 observation deleted)
+
+. br
+
+. 
+end of do-file
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. 
+. drop if missing(v5)
+(1,932 observations deleted)
+
+. br
+
+. 
+end of do-file
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. drop v3 v4
+
+. br
+
+. 
+end of do-file
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. rename v1 County
+
+. rename v2 State
+
+. rename v3 Total
+variable v3 not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. rename v5 Total
+
+. br
+
+. 
+end of do-file
+
+. export delimited using "/Users/elizabethalliott/Documents/Brist
+> ol/Third Year/Data Science /Core/mapdata3.csv", replace
+(note: file /Users/elizabethalliott/Documents/Bristol/Third Year/
+> Data Science /Core/mapdata3.csv not found)
+file /Users/elizabethalliott/Documents/Bristol/Third Year/Data Sc
+> ience /Core/mapdata3.csv saved
+
+. do "/var/folders/hc/0xbdq8rx5c9dx7p_98wxcrgm0000gn/T//SD92771.0
+> 00000"
+
+. //1.  LOOK AT THE DATA:
+. clear all 
+
+. set more off
+
+. 
+. cd "/Users/elizabethalliott/Documents/Bristol/Third Year/Commun
+> icating/Data Viz/Communicatingstata"
+/Users/elizabethalliott/Documents/Bristol/Third Year/Communicatin
+> g/Data Viz/Communicatingstata
+
+. 
+. capture log close

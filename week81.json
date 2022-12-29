@@ -1,0 +1,75 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "",
+  "title": {
+    "text": "Japanese Interest Rate and Residential Property Prices from 1980-2016",
+    "subtitle": [
+      "Bank of Japan Short-term Interest Rate %.",
+      "Year-on-year % change in Residential Property Prices.",
+      "Data Sources:FRED",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "height": 300,
+  "width": 400,
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/week8prices.csv"
+      },
+      "mark": {"type": "line", "point": false, "color": "red"},
+      "encoding": {
+        "x": {
+          "field": "Date",
+          "type": "temporal",
+          "title": null,
+          "axis": {"grid": false}
+        },
+        "y": {
+          "field": "Price",
+          "type": "quantitative",
+          "title": "Short-term Interest Rate %",
+          "axis": {
+            "titleColor": "red",
+            "labelFontSize": 10,
+            "titleFontSize": 13
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/week8rates.csv"
+      },
+      "mark": {
+        "type": "line",
+        "strokeDash": [6, 2],
+        "point": false,
+        "color": "black"
+      },
+      "encoding": {
+        "y": {
+          "field": "Rate",
+          "type": "quantitative",
+          "scale": {"domain": [-8, 14]},
+          "title": "Y-o-y % change in Property Prices",
+          "axis": {
+            "titleColor": "black", 
+            "titleFontSize": 13
+            }
+        },
+        "x": {
+          "field": "Date",
+          "type": "temporal",
+          "title": "",
+          "axis": {"grid": false}
+        }
+      }
+    }
+  ],
+  "resolve": {"scale": {"y": "independent"}}
+}

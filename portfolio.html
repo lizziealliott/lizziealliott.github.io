@@ -1,7 +1,7 @@
 <!-- Set up -->
 <!DOCTYPE html>
 <html lang="en">
- <meta charset="UTF-8">
+<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="portfolio.css">
@@ -10,14 +10,12 @@
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 
 
-
 <!-- Header -->
 <head>
 <title>Lizzie Alliott Data Science</title>
-<h1>DATA SCIENCE PROJECT</h1> 
+<h1>DataScience</h1> 
 <p> Lizzie Alliott | 2035392 </p>
 </head>
-
 
 
 <!-- Buttons -->
@@ -33,31 +31,31 @@
 <!-- Portfolio Tasks -->
 <h2>PORTFOLIO</h2>  
 
-<h3>Week 1: Setting up web page and embedding two charts.<h3>
+<h5>Week 1: Setting up web page and embedding two charts.<h5>
 <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
 <container class="a_container">
 <p>UK Inflation<p>
 <p>The first chart tracks UK CPI (including housing costs) from 1989 to 2021.</p>
 <div class="chart" id="Chart1">
 <script>
-var myChart1 = "chart1_CPIH.json";
-vegaEmbed('#Chart1', myChart1);
-</script>
-</div>
-</container> 
-<container class="a_container">
-<p>Bank of England Policy Rate<p>
-<p>The second chart follows the UK's Central Bank Rate from 1975 to 2020.</p>
-<div class="chart" id="Chart2"> 
-<script>
-var myChart2 = "chart2_BOErate.json";
-vegaEmbed('#Chart2', myChart2);
-</script>
-</div> 
-</container> 
+    var myChart1 = "chart1_CPIH.json";
+    vegaEmbed('#Chart1', myChart1);
+    </script>
+    </div>
+    </container> 
+    <container class="a_container">
+    <p>Bank of England Policy Rate<p>
+    <p>The second chart follows the UK's Central Bank Rate from 1975 to 2020.</p>
+    <div class="chart" id="Chart2"> 
+    <script>
+    var myChart2 = "chart2_BOErate.json";
+    vegaEmbed('#Chart2', myChart2);
+    </script>
+    </div> 
+    </container> 
 
 
-<h3>Week 2: Two charts - replicating one from the Financial Times and your first original.<h3>
+<h5>Week 2: Two charts - replicating one from the Financial Times and your first original.<h5>
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <container class="a_container">
      <!--These Ps determine the style of the 2 charts on page -->
@@ -72,7 +70,7 @@ vegaEmbed('#Chart2', myChart2);
     </div>
     </container> 
     <container class="a_container">
-    <p>IMF Lending (Proportion of GDP)<p>
+    <p>IMF Lending (Percentage of GDP)<p>
     <p>Now adjusted for inflation, the data is more applicable. The IMF lent</p>
     <p>the most in 1985, suggesting this was the riskiest year to invest.</p>
     <div class="chart" id="Chart4"> 
@@ -85,7 +83,7 @@ vegaEmbed('#Chart2', myChart2);
 
 
 
-<h3>Week 3: Two charts- inline data objects and visual encodings.<h3>
+<h5>Week 3: Two charts- inline data objects and visual encodings.<h5>
 <container class="a_container">
 <p>Visualization 1 <p>
 <p>This bar chart shows the total percentage of the labour force unemployed </p>
@@ -110,7 +108,7 @@ vegaEmbed('#Chart6', myChart6);
 </container> 
 
 
-<h3>Week 4: One chart- Implement a data scraper of your own. Any source, any data.<h3>
+<h5>Week 4: One chart- Implement a data scraper of your own. Any source, any data.<h5>
 <container class="a_container1">
 <p>Premier Leage Goals <p>
 <p>This data has been scraped from the Premier League website. There were no issues with scraping and data was presented in a table format. Click  <a class="textlink" href="https://colab.research.google.com/drive/1cZ98W1CjkliktLTX5ddBu3IAfRnuxtD0?usp=share_link">here</a> for the link to my colab.
@@ -124,7 +122,7 @@ vegaEmbed('#Chart7', myChart7);
 </container> 
  
 
-<h3>Week 5: Nine Charts- build a dashboard.<h3>
+<h5>Week 5: Nine Charts- build a dashboard.<h5>
     <div class="myWeek5">
     <p> UK Trade Balance 1946-2021. <p>
     <p> Click  <a class="textlink" href= "https://colab.research.google.com/drive/1kw45Yd57tqETYSiFskouXaa4xJrTBO3I" >here</a> for the link to my colab. 
@@ -166,10 +164,10 @@ vegaEmbed('#Chart7', myChart7);
     </script> 
     </div> 
 
-<h3>Week 6<h3></h3>
+<h5>Week 6: Reading week.<h5>
 
 
-<h3>Week 7: Two maps - a base map and a choropleth.<h3>
+<h5>Week 7: Two maps - a base map and a choropleth.<h5>
 <container class="a_container7">
 <p>Base Map <p>
 <p>This first base map presents Asia, sectioned into 48 countries.</p>
@@ -191,5 +189,30 @@ vegaEmbed('#Chart18', myChart18);
 </div> 
 </container> 
 
+<h5>Week 8: Festival of Economics.<h5>
+    <p>The ‘Boom and Bust’ covered the excessive bank lending in Japan. Low interest rates increased demand for houses: prices rose and rose. By 1990 however, the bubble burst. </p>
+    <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+    <container class="a_container">
+    <p>Lending and House Prices<p>
+    <p>House prices grew by above 2% yoy and do see negative growth after 1990. </p>
+    <p>However, at times the cost to borrow was actually very high before the burst. </p>
+    <div class="chart" id="Chart19">
+    <script>
+    var myChart19 = "week81.json";
+    vegaEmbed('#Chart19', myChart19);
+    </script>
+    </div>
+    </container> 
+    <container class="a_container">
+    <p>Stock Market Crash<p>
+    <p>This chart shows the moment the bubble burst in 1990, as the incline in prices peaks.</p>
+    <p> through Japan’s main index.</p>
+    <div class="chart" id="Chart20"> 
+    <script>
+    var myChart20 = "week82.json";
+    vegaEmbed('#Chart20', myChart20);
+    </script>
+    </div> 
+    </container> 
 
 </html>
