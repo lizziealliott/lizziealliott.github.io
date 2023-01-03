@@ -1,0 +1,251 @@
+state,MedianAge,Indicator,Rate
+Alabama,39.2,smokingRate,20.2
+Alaska,34.6,smokingRate,17.4
+Arizona,37.9,smokingRate,14.9
+Arkansas,38.3,smokingRate,20.2
+California,36.7,smokingRate,10
+Colorado,36.9,smokingRate,13.5
+Connecticut,41.1,smokingRate,12.1
+Delaware,41,smokingRate,15.9
+Florida,42.2,smokingRate,14.8
+Georgia,36.9,smokingRate,16.3
+Hawaii,39.4,smokingRate,12.3
+Idaho,36.6,smokingRate,15.3
+Illinois,38.3,smokingRate,14.5
+Indiana,37.8,smokingRate,19.2
+Iowa,38.3,smokingRate,16.4
+Kansas,36.9,smokingRate,16.2
+Kentucky,39,smokingRate,23.6
+Louisiana,37.2,smokingRate,21.9
+Maine,44.8,smokingRate,17.6
+Maryland,38.8,smokingRate,12.7
+Massachusetts,39.6,smokingRate,12
+Michigan,39.8,smokingRate,18.7
+Minnesota,38.1,smokingRate,14.6
+Mississippi,37.7,smokingRate,20.4
+Missouri,38.7,smokingRate,19.6
+Montana,40.1,smokingRate,16.6
+Nebraska,36.6,smokingRate,14.7
+Nevada,38.2,smokingRate,15.7
+New Hampshire,43,smokingRate,15.9
+New Jersey,40,smokingRate,13.1
+New Mexico,38.1,smokingRate,16
+New York,39,smokingRate,12.7
+North Carolina,38.9,smokingRate,18.5
+North Dakota,35.2,smokingRate,17
+Ohio,39.5,smokingRate,20.8
+Oklahoma,36.7,smokingRate,18.9
+Oregon,39.5,smokingRate,14.5
+Pennsylvania,40.9,smokingRate,17.3
+Rhode Island,40,smokingRate,13.3
+South Carolina,39.7,smokingRate,17.5
+South Dakota,37.2,smokingRate,18.3
+Tennessee,38.8,smokingRate,19.9
+Texas,34.8,smokingRate,14.7
+Utah,31.1,smokingRate,7.9
+Vermont,42.8,smokingRate,15.1
+Virginia,38.4,smokingRate,14
+Washington,37.8,smokingRate,12.6
+West Virginia,42.7,smokingRate,23.8
+Wisconsin,39.6,smokingRate,15.4
+Wyoming,38,smokingRate,18.4
+Alabama,39.2,obesityRate,36.1
+Alaska,34.6,obesityRate,30.5
+Arizona,37.9,obesityRate,31.4
+Arkansas,38.3,obesityRate,37.4
+California,36.7,obesityRate,26.3
+Colorado,36.9,obesityRate,23.8
+Connecticut,41.1,obesityRate,29.1
+Delaware,41,obesityRate,34.4
+Florida,42.2,obesityRate,27
+Georgia,36.9,obesityRate,33.1
+Hawaii,39.4,obesityRate,25
+Idaho,36.6,obesityRate,29.5
+Illinois,38.3,obesityRate,31.6
+Indiana,37.8,obesityRate,35.3
+Iowa,38.3,obesityRate,33.9
+Kansas,36.9,obesityRate,35.2
+Kentucky,39,obesityRate,36.5
+Louisiana,37.2,obesityRate,35.9
+Maine,44.8,obesityRate,31.7
+Maryland,38.8,obesityRate,32.3
+Massachusetts,39.6,obesityRate,25.2
+Michigan,39.8,obesityRate,36
+Minnesota,38.1,obesityRate,30.1
+Mississippi,37.7,obesityRate,40.8
+Missouri,38.7,obesityRate,34.8
+Montana,40.1,obesityRate,28.3
+Nebraska,36.6,obesityRate,34.1
+Nevada,38.2,obesityRate,30.6
+New Hampshire,43,obesityRate,31.8
+New Jersey,40,obesityRate,27.3
+New Mexico,38.1,obesityRate,31.7
+New York,39,obesityRate,27.1
+North Carolina,38.9,obesityRate,34
+North Dakota,35.2,obesityRate,34.8
+Ohio,39.5,obesityRate,34.8
+Oklahoma,36.7,obesityRate,36.8
+Oregon,39.5,obesityRate,29
+Pennsylvania,40.9,obesityRate,33.2
+Rhode Island,40,obesityRate,30
+South Carolina,39.7,obesityRate,35.4
+South Dakota,37.2,obesityRate,33
+Tennessee,38.8,obesityRate,36.5
+Texas,34.8,obesityRate,34
+Utah,31.1,obesityRate,29.2
+Vermont,42.8,obesityRate,26.6
+Virginia,38.4,obesityRate,31.9
+Washington,37.8,obesityRate,28.3
+West Virginia,42.7,obesityRate,39.7
+Wisconsin,39.6,obesityRate,34.2
+Wyoming,38,obesityRate,29.7
+Alabama,39.2,prematureDeathRate,10421
+Alaska,34.6,prematureDeathRate,7978
+Arizona,37.9,prematureDeathRate,7527
+Arkansas,38.3,prematureDeathRate,9890
+California,36.7,prematureDeathRate,5650
+Colorado,36.9,prematureDeathRate,6261
+Connecticut,41.1,prematureDeathRate,6035
+Delaware,41,prematureDeathRate,8289
+Florida,42.2,prematureDeathRate,7557
+Georgia,36.9,prematureDeathRate,8151
+Hawaii,39.4,prematureDeathRate,6129
+Idaho,36.6,prematureDeathRate,6788
+Illinois,38.3,prematureDeathRate,7178
+Indiana,37.8,prematureDeathRate,8693
+Iowa,38.3,prematureDeathRate,6610
+Kansas,36.9,prematureDeathRate,7668
+Kentucky,39,prematureDeathRate,10082
+Louisiana,37.2,prematureDeathRate,10028
+Maine,44.8,prematureDeathRate,7205
+Maryland,38.8,prematureDeathRate,7541
+Massachusetts,39.6,prematureDeathRate,5973
+Michigan,39.8,prematureDeathRate,8071
+Minnesota,38.1,prematureDeathRate,5648
+Mississippi,37.7,prematureDeathRate,11011
+Missouri,38.7,prematureDeathRate,9112
+Montana,40.1,prematureDeathRate,7372
+Nebraska,36.6,prematureDeathRate,6675
+Nevada,38.2,prematureDeathRate,7722
+New Hampshire,43,prematureDeathRate,6819
+New Jersey,40,prematureDeathRate,6375
+New Mexico,38.1,prematureDeathRate,9262
+New York,39,prematureDeathRate,5800
+North Carolina,38.9,prematureDeathRate,8072
+North Dakota,35.2,prematureDeathRate,6899
+Ohio,39.5,prematureDeathRate,8857
+Oklahoma,36.7,prematureDeathRate,9708
+Oregon,39.5,prematureDeathRate,6262
+Pennsylvania,40.9,prematureDeathRate,7807
+Rhode Island,40,prematureDeathRate,6174
+South Carolina,39.7,prematureDeathRate,9319
+South Dakota,37.2,prematureDeathRate,7400
+Tennessee,38.8,prematureDeathRate,9981
+Texas,34.8,prematureDeathRate,7126
+Utah,31.1,prematureDeathRate,6205
+Vermont,42.8,prematureDeathRate,6844
+Virginia,38.4,prematureDeathRate,6863
+Washington,37.8,prematureDeathRate,6086
+West Virginia,42.7,prematureDeathRate,11338
+Wisconsin,39.6,prematureDeathRate,6676
+Wyoming,38,prematureDeathRate,7570
+Alabama,39.2,physicalInactivityRate,31.5
+Alaska,34.6,physicalInactivityRate,21.7
+Arizona,37.9,physicalInactivityRate,24.1
+Arkansas,38.3,physicalInactivityRate,31.2
+California,36.7,physicalInactivityRate,22.4
+Colorado,36.9,physicalInactivityRate,18.7
+Connecticut,41.1,physicalInactivityRate,23.5
+Delaware,41,physicalInactivityRate,26.6
+Florida,42.2,physicalInactivityRate,26.5
+Georgia,36.9,physicalInactivityRate,27.9
+Hawaii,39.4,physicalInactivityRate,24.4
+Idaho,36.6,physicalInactivityRate,23.8
+Illinois,38.3,physicalInactivityRate,25.6
+Indiana,37.8,physicalInactivityRate,30.9
+Iowa,38.3,physicalInactivityRate,26.5
+Kansas,36.9,physicalInactivityRate,27.1
+Kentucky,39,physicalInactivityRate,32.8
+Louisiana,37.2,physicalInactivityRate,31.9
+Maine,44.8,physicalInactivityRate,30.1
+Maryland,38.8,physicalInactivityRate,23.4
+Massachusetts,39.6,physicalInactivityRate,26.4
+Michigan,39.8,physicalInactivityRate,25.4
+Minnesota,38.1,physicalInactivityRate,19.9
+Mississippi,37.7,physicalInactivityRate,37.7
+Missouri,38.7,physicalInactivityRate,30.6
+Montana,40.1,physicalInactivityRate,19.7
+Nebraska,36.6,physicalInactivityRate,26.9
+Nevada,38.2,physicalInactivityRate,25.8
+New Hampshire,43,physicalInactivityRate,21.7
+New Jersey,40,physicalInactivityRate,28.5
+New Mexico,38.1,physicalInactivityRate,25.4
+New York,39,physicalInactivityRate,27.2
+North Carolina,38.9,physicalInactivityRate,26.3
+North Dakota,35.2,physicalInactivityRate,28
+Ohio,39.5,physicalInactivityRate,28.3
+Oklahoma,36.7,physicalInactivityRate,34
+Oregon,39.5,physicalInactivityRate,23.9
+Pennsylvania,40.9,physicalInactivityRate,25.6
+Rhode Island,40,physicalInactivityRate,26.5
+South Carolina,39.7,physicalInactivityRate,28.8
+South Dakota,37.2,physicalInactivityRate,30
+Tennessee,38.8,physicalInactivityRate,30.1
+Texas,34.8,physicalInactivityRate,27.2
+Utah,31.1,physicalInactivityRate,18.5
+Vermont,42.8,physicalInactivityRate,20
+Virginia,38.4,physicalInactivityRate,25.3
+Washington,37.8,physicalInactivityRate,19.2
+West Virginia,42.7,physicalInactivityRate,31.2
+Wisconsin,39.6,physicalInactivityRate,23.2
+Wyoming,38,physicalInactivityRate,24.6
+Alabama,39.2,excessiveDrinkingRate,13.6
+Alaska,34.6,excessiveDrinkingRate,18.2
+Arizona,37.9,excessiveDrinkingRate,16.5
+Arkansas,38.3,excessiveDrinkingRate,14.9
+California,36.7,excessiveDrinkingRate,18.3
+Colorado,36.9,excessiveDrinkingRate,19.6
+Connecticut,41.1,excessiveDrinkingRate,17.7
+Delaware,41,excessiveDrinkingRate,18.9
+Florida,42.2,excessiveDrinkingRate,18
+Georgia,36.9,excessiveDrinkingRate,17.1
+Hawaii,39.4,excessiveDrinkingRate,19.3
+Idaho,36.6,excessiveDrinkingRate,18.7
+Illinois,38.3,excessiveDrinkingRate,21.6
+Indiana,37.8,excessiveDrinkingRate,16.5
+Iowa,38.3,excessiveDrinkingRate,22.5
+Kansas,36.9,excessiveDrinkingRate,18.7
+Kentucky,39,excessiveDrinkingRate,16.8
+Louisiana,37.2,excessiveDrinkingRate,20.8
+Maine,44.8,excessiveDrinkingRate,19.9
+Maryland,38.8,excessiveDrinkingRate,15.1
+Massachusetts,39.6,excessiveDrinkingRate,21.3
+Michigan,39.8,excessiveDrinkingRate,19.1
+Minnesota,38.1,excessiveDrinkingRate,22
+Mississippi,37.7,excessiveDrinkingRate,14.6
+Missouri,38.7,excessiveDrinkingRate,18.1
+Montana,40.1,excessiveDrinkingRate,22.7
+Nebraska,36.6,excessiveDrinkingRate,21.9
+Nevada,38.2,excessiveDrinkingRate,18.4
+New Hampshire,43,excessiveDrinkingRate,18.6
+New Jersey,40,excessiveDrinkingRate,15.2
+New Mexico,38.1,excessiveDrinkingRate,16.3
+New York,39,excessiveDrinkingRate,18.2
+North Carolina,38.9,excessiveDrinkingRate,15.4
+North Dakota,35.2,excessiveDrinkingRate,23.3
+Ohio,39.5,excessiveDrinkingRate,18.7
+Oklahoma,36.7,excessiveDrinkingRate,13.7
+Oregon,39.5,excessiveDrinkingRate,19.6
+Pennsylvania,40.9,excessiveDrinkingRate,18
+Rhode Island,40,excessiveDrinkingRate,20.1
+South Carolina,39.7,excessiveDrinkingRate,20.1
+South Dakota,37.2,excessiveDrinkingRate,22.6
+Tennessee,38.8,excessiveDrinkingRate,15.8
+Texas,34.8,excessiveDrinkingRate,19.3
+Utah,31.1,excessiveDrinkingRate,12
+Vermont,42.8,excessiveDrinkingRate,21
+Virginia,38.4,excessiveDrinkingRate,16.6
+Washington,37.8,excessiveDrinkingRate,15.7
+West Virginia,42.7,excessiveDrinkingRate,13.2
+Wisconsin,39.6,excessiveDrinkingRate,23.6
+Wyoming,38,excessiveDrinkingRate,19
