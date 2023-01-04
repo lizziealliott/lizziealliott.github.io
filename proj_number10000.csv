@@ -10,17 +10,6 @@ Year,Category,Value
 2016,18-44 Male,3.3
 2017,18-44 Male,3.8
 2018,18-44 Male,4.6
-2008,18-44 Female,5.0
-2009,18-44 Female,4.3
-2010,18-44 Female,4.8
-2011,18-44 Female,3.8
-2012,18-44 Female,3.7
-2013,18-44 Female,3.8
-2014,18-44 Female,4.4
-2015,18-44 Female,4.4
-2016,18-44 Female,4.3
-2017,18-44 Female,4.2
-2018,18-44 Female,5.0
 2008,45-64 Male,13.0
 2009,45-64 Male,14.5
 2010,45-64 Male,13.8
@@ -32,17 +21,6 @@ Year,Category,Value
 2016,45-64 Male,13.3
 2017,45-64 Male,13.0
 2018,45-64 Male,13.3
-2008,45-64 Female,11.5
-2009,45-64 Female,11.7
-2010,45-64 Female,12.6
-2011,45-64 Female,11.8
-2012,45-64 Female,10.8
-2013,45-64 Female,10.7
-2014,45-64 Female,11.2
-2015,45-64 Female,11.1
-2016,45-64 Female,11.2
-2017,45-64 Female,10.8
-2018,45-64 Female,10.4
 2008,65 and over Male,37.3
 2009,65 and over Male,37.4
 2010,65 and over Male,36.3
@@ -54,6 +32,28 @@ Year,Category,Value
 2016,65 and over Male,33.9
 2017,65 and over Male,33.7
 2018,65 and over Male,34.9
+2008,18-44 Female,5.0
+2009,18-44 Female,4.3
+2010,18-44 Female,4.8
+2011,18-44 Female,3.8
+2012,18-44 Female,3.7
+2013,18-44 Female,3.8
+2014,18-44 Female,4.4
+2015,18-44 Female,4.4
+2016,18-44 Female,4.3
+2017,18-44 Female,4.2
+2018,18-44 Female,5.0
+2008,45-64 Female,11.5
+2009,45-64 Female,11.7
+2010,45-64 Female,12.6
+2011,45-64 Female,11.8
+2012,45-64 Female,10.8
+2013,45-64 Female,10.7
+2014,45-64 Female,11.2
+2015,45-64 Female,11.1
+2016,45-64 Female,11.2
+2017,45-64 Female,10.8
+2018,45-64 Female,10.4
 2008,65 and over Female,28.9
 2009,65 and over Female,25.8
 2010,65 and over Female,25.3
