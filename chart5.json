@@ -3,7 +3,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/proj_number10000.csv"
   },
-  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "config": {"background": "rgb(250, 243, 250)", "view": {"stroke": "transparent"}},
   "title": {
     "text": "Heart Disease Rates, Age and Gender 2008-2018",
     "subtitle": "Source: CDC",

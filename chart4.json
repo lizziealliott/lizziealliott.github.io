@@ -3,7 +3,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/proj_rim.csv"
   },
-  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "config": {"background": "rgb(250, 243, 250)", "view": {"stroke": "transparent"}},
   "title": {
     "text": "Infant Mortality Rates and Race of Mother 1995-2018",
     "subtitle": "Source: CDC API & Fred API",

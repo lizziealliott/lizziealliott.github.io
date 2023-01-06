@@ -8,7 +8,7 @@
     "anchor": "start",
     "color": "navy"
   },
-  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "config": {"background": "rgb(250, 243, 250)", "view": {"stroke": "transparent"}},
   "data": {
     "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/proj_chart6.csv",
     "format": {"type": "csv"}

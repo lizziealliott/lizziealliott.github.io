@@ -15,6 +15,7 @@
     },
     "height": 300,
     "width": 250,
+    "background": "rgb(250, 243, 250)",
     "transform": [
       {
         "filter": {
