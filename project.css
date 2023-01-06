@@ -177,9 +177,9 @@ container{
 	align-content: center;
 	flex-flow: center;
 	border-radius: 4px;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(201, 137, 191);
   border: 1.5px solid purple;
-	color: purple;
+	color: white;
   font-weight: bold;
 	text-align: center;
 	font-size: 18px;
