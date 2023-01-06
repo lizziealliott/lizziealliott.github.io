@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Asia Chloropleth Map 2022",
+    "subtitle": "Source: https://geojson-maps.ash.ms/",
+    "anchor": "start",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "color": "navy"
+  },
+  "width": 340,
+  "height": 340,
+  "data": {
+    "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/custom.geo%20(1).json",
+    "format": {"property": "features"}
+  },
+  "projection": {"type": "mercator"},
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/map2week7.csv"
+        },
+        "key": "country",
+        "fields": ["population"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "darkgrey", "strokeWidth": 0.5},
+  "encoding": {
+    "tooltip": [
+      {
+        "field": "properties.name",
+        "type": "nominal",
+        "title": "Country"
+      },
+      {"field": "population", "title": "Population (millions)","format": ".1f"}
+    ],
+    "color": {
+      "field": "population",
+      "type": "quantitative",
+      "title": "Population (millions)",
+      "scale": {"scheme": "blues", "domain": [0, 1500]}
+    }
+  }
+}

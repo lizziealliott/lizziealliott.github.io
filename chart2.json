@@ -1,0 +1,55 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 340,
+  "width": 400,
+  "title": {
+    "text": "County Level Insurance Chloropleth Map 2022",
+    "subtitle": "Source: ASPE",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "navy"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/vega/vega/master/docs/data/us-10m.json",
+    "format": {"type": "topojson", "feature": "counties"}
+  },
+  "transform": [
+    {
+      "lookup": "id",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/proj_mapuninsured.csv"
+        },
+        "key": "FIPS",
+        "fields": [
+          "County",
+          "State",
+          "Percent Uninsured",
+          "% HIU Income < 100% FPL"
+        ]
+      }
+    }
+  ],
+  "projection": {"type": "albersUsa"},
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "legend": {"orient": "top-right", "title": "% Uninsured", "labelFontSize": 10},
+      "field": "Percent Uninsured",
+      "type": "quantitative",
+      "scale": {"scheme": "plasma", "domain": [37, 3]},
+      "condition": {"test": "datum['County'] === null", "value": "#aaa 0"}
+    },
+    
+    "tooltip": [
+      {"field": "State", "title": "State"},
+      {"field": "County", "title": "County"},
+      {"field": "Percent Uninsured", "title": "% Uninsured"},
+      {
+        "field": "% HIU Income < 100% FPL",
+        "title": "% below Federal Poverty Level"
+      }
+    ]
+  }
+}

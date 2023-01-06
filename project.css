@@ -1,49 +1,315 @@
-/* Import a font */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap" rel="stylesheet"');
+/* CSS files can can also be used to access e.g. fonts */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+/* Format my paragraph */
+
+/* My name */
+
+h1 {
+	color: purple;
+  border-color: white;
+	font-size: 40px;
+	margin-top: 30px;
+	margin-bottom: 0px;	
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif ;
+}
+/* First line */
 
 
-/* Set the background color for my page: */
+h2 {
+	color: rgb(59, 60, 61);
+	font-size: 15px;
+    font-weight: 500;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+	text-align: center;
+	font-family: 'Poppins', sans-serif ;
+}
+
+h3{
+    color:rgb(59, 60, 61);
+    font-family: 'Poppins', sans-serif ;
+    font-size: 16px;
+    line-height: 0; 
+    text-align: center;
+ }
+
+
+ h4{
+    color:purple;
+    font-family: 'Poppins', sans-serif ;
+    font-size: 27px;
+    text-align: center;
+ }
+
+ h5{
+  color:rgb(59, 60, 61);
+  font-family: 'Poppins', sans-serif ;
+  font-size: 17px;
+  line-height: 0; 
+  text-align: center;
+}
+
+h6{
+  color:rgb(59, 60, 61);
+  font-family: 'Poppins', sans-serif ;
+  font-size: 10px;
+  line-height: 0; 
+  text-align: center;
+}
+
 body{
-    background-color: rgb(214, 233, 245);
- 
-}
-h1{
-    font-family: 'Merriweather', serif;
-    color:rgb(255, 255, 255);
-    background-color: rgb(9, 65, 138);
-    text-align: center;
-}
-h2{
-    color:rgb(9, 65, 138);
-    font-family: 'Merriweather', serif;
-    text-align: center;
-    line-height: 2;
-    letter-spacing: 1px;
-}
-
-/* Choose the appearance of the tags, h1, h3 and p: */h3, p{
-    color:rgb(9, 65, 138);
-    font-family: 'Merriweather', serif;
-    text-align: center;
-    line-height: 1;
-    letter-spacing: 0.8px;
-}
-    
-.myWeek1{
+    background-color:rgb(250, 243, 250);
+    max-width: 90%;
     margin: auto;
-    max-width: 600px;
+ }
+ 
+ 
+ ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgb(246, 212, 246);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #FFFFFF;
+    border-radius: 25px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(252, 202, 252);
+  }
+ 
+ 
+ footer {
+    height: 100px
+ }
+ 
+ 
+ .pagecontainer {
+   display: grid;
+ 
+ }
 
-}
-
-
-/* Set the appearance of the class, chart */
-.chart{
-    background-color: rgb(255, 255, 255);
-    width:330px;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 0px;
-    border-color: rgb(40, 6, 163);
-
+ .acontainer {
     
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    position: relative;
+    left: 0px;
+    width: 100%;
+    text-align: justify;
+    border: 1.5px solid purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    right: 0px;
+    margin-top: 5px;
+
 }
+ 
+ /* --------------------------------------CONTENT IN BODY----------------------------------------------*/
+ 
+ /* Flexbox container with home page graphs */
+ .bcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 30px 30px;
+    border: 1.5px solid purple;
+    margin-top: 30px;
+    border-style: solid;
+    border-color:purple;
+    padding: 30px;
+    border-radius: 25px;
+  }
+  
+ 
+ /* Chart Format */
+ .chart-container {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+ }
+
+   
+ .chart:hover {
+  transform: scale(1.03, 1.03);
+  transition: 0.3s;
+}
+
+ .navbuttons {
+	display:flex;
+	justify-content:center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+  width: 100%;
+ }
+ 
+ /* Buttons inspired by Nia Thomas */
+
+ /* Button style */
+container{
+	align-content: center;
+	justify-content: center;
+	flex-flow: row wrap;
+	border-style: solid;
+	border-width: 1.5px;
+	border-radius: 3px;
+	border-color: #ffffff;
+	padding: 60px;
+	clear:both;
+
+}
+
+.button{
+	align-content: center;
+	flex-flow: center;
+	border-radius: 4px;
+	background-color: rgb(255, 255, 255);
+  border: 1.5px solid purple;
+	color: purple;
+  font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+	padding: 10px;
+	width: 240px;
+	cursor: pointer;
+	margin: 5px;
+	transition: color 1s;
+	font-family: 'Poppins', sans-serif ;
+  }
+
+  .button1{
+    align-content: center;
+    flex-flow: center;
+    border-radius: 4px;
+  	background-color: rgb(201, 137, 191);
+    border: 2px solid purple;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 240px;
+    cursor: pointer;
+    margin: 5px;
+    transition: color 1s;
+    font-family: 'Poppins', sans-serif ;
+    }
+    .button2{
+      align-content: center;
+      flex-flow: center;
+      border-radius: 4px;
+      background-color: rgb(201, 137, 191);
+      border: 2px solid purple;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      text-align: center;
+      font-size: 18px;
+      padding: 10px;
+      width: 240px;
+      cursor: pointer;
+      margin: 5px;
+      transition: color 1s;
+      font-family: 'Poppins', sans-serif ;
+      }
+
+
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+
+  }
+  
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+
+  }
+
+  
+.button:hover span {
+	padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+
+  .text-level-A, .text{
+    color: rgb(59, 60, 61);
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif ;
+    margin-bottom: 10px;
+    clear: left;
+    width: 100%;
+  }
+  .text-level-B, .text{
+    color: rgb(59, 60, 61);
+    font-size: 7px;
+    margin-top:3px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif ;
+    margin-bottom: 10px;
+    clear: left;
+    width: 100%;
+  }
+  /* Week 5 css */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: center !important;
+  vertical-align: bottom;
+  text-align: center !important;
+  align-content: center;
+  max-width: 90%;
+  margin:auto;
+  max-width: 1200px;
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+  font-size: xx-small;
+  letter-spacing: 0.1px;
+}
+
+.grid-item {
+  background-color: white;
+  padding: 10px;
+  text-align: center; 
+  border-width: .2em;
+  height: 100%; /* can do %s here too! */
+  width: 100%;
+  display: inline-block !important;
+  min-width: 280px;
+  font-size: 10px;
+  margin: 0 auto;
+}
+
+
+

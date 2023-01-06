@@ -1,0 +1,100 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/proj_number10000.csv"
+  },
+  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "title": {
+    "text": "Heart Disease Rates, Age and Gender 2008-2018",
+    "subtitle": "Source: CDC",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "navy"
+  },
+"height": 300,
+"width": 500,
+"transform": [
+  {
+    "filter": {
+      "field": "Category",
+      "oneOf": [
+        "18-44 Male",
+        "45-64 Male",
+        "65 and over Male",
+        "18-44 Female",
+        "45-64 Female",
+        "65 and over Female"
+      ]
+    }
+  }
+],
+"encoding": {
+  "x": {
+    "field": "Year",
+    "type": "temporal",
+    "title": null,
+    "axis": {"grid": false, "labelAngle": 20}
+  },
+  "y": {
+    "field": "Value",
+    "type": "quantitative",
+    "scale": {"domain": [0, 40]},
+    "title": "Heart Disease Rate (%)",
+    "axis": {"grid": false}
+  },
+  "color": {
+    "condition": {
+      "param": "hover",
+      "field": "Category",
+      "type": "nominal",
+      "legend": {"title": "", "orient": "right"},
+      "scale": {"scheme": "plasma"}
+    },
+    "value": "black"
+  },
+  "tooltip": [
+    {"field": "Category", "title": "Category"},
+    {"field": "Year", "type": "temporal", "title": "Year"},
+    {"field": "Value", "title": "Heart Disease Rate (%)"}
+  ],
+  "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0.2}
+},
+"layer": [
+  {
+    "description": "transparent layer to make it easier to trigger selection",
+    "params": [
+      {
+        "name": "hover",
+        "value": [{"Category": "65 and over Female"}],
+        "select": {
+          "type": "point",
+          "fields": ["Category"],
+          "on": "mouseover"
+        }
+      }
+    ],
+    "mark": {"type": "line", "strokeWidth": 20, "stroke": "transparent"}
+  },
+  {"mark": "line"},
+  {
+    "encoding": {
+      "x": {"aggregate": "max", "field": "Year"},
+      "y": {"aggregate": {"argmax": "date"}, "field": "Value"}
+    },
+    "layer": [
+      {"mark": {"type": "circle"}},
+      {
+        "mark": {"type": "text", "align": "left"},
+        "encoding": {
+          "text": {
+            "field": "Category",
+            "type": "nominal",
+            "title": "Category"
+          }
+        }
+      }
+    ]
+  }
+]
+}

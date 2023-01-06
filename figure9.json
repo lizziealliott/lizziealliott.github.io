@@ -1,0 +1,38 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/ONS_data_BOKH%20(1).json",
+      "format": {"type": "json", "property": "years"}
+    },
+    "transform": [{"calculate": "datum.value/1000", "as": "value"}],
+    "title": {
+      "text": "Imports (Goods) 1946-2021",
+      "subtitle": "Source: ONS",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "navy"
+    },
+    "width": 200,
+    "height": 180,
+    "mark": {"type": "line", "color": "rgb(0,47,167"},
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "axis": {"grid": false},
+        "title": null
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "axis": {"grid": false},
+        "title": "£ Billion"
+      },
+      "tooltip": [
+        {"field": "date", "type": "temporal", "title": "Date"},
+        {"field": "value", "type": "quantitative", "title": "£ Billion"}
+        
+      ]
+    }
+  }

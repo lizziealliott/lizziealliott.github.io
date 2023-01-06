@@ -1,0 +1,68 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Nikkei Stock Average, Nikkei 225",
+  "title": {
+    "text": "Nikkei 225 Index 1949-2022",
+    "subtitle": ["Source: FRED"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "navy"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/week8nstock.csv"
+  },
+  "height": 340,
+  "width": 375,
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "axis": {"title": null, "grid": false}
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "title": "Yen (JP¥)",
+          "axis": {"grid": true}
+        }
+      },
+      "layer": [
+        {"mark": {"type": "line", "color": "darkblue"}},
+        {"transform": [{"filter": {"selection": "hover"}}], "mark": "point"}
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {"value": 0.1, "selection": "hover"},
+          "value": 0
+        },
+        "tooltip": [
+          {"field": "Date", "type": "temporal", "format": "%B, %Y"},
+          {
+            "field": "Value",
+            "title": "Index",
+            "type": "quantitative",
+            "format": ".0f"
+          }
+        ]
+      },
+      "selection": {
+        "hover": {
+          "type": "single",
+          "fields": ["Date"],
+          "nearest": true,
+          "on": "mouseover",
+          "empty": "none",
+          "clear": "mouseout"
+        }
+      }
+    }
+  ]
+}

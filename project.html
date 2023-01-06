@@ -1,26 +1,209 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<link rel="stylesheet" href="project.css"> 
+<script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.6.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<h1>Data Science Project</h1>
+<h2>Lizzie Alliott | 2035392</h2>
+<head>
     
-    <!-- Title for the page -->
-    <title>Lizzie Alliott Data Science</title>
+<body>
+<div class="navbuttons">
+    <button class="button" style="vertical-align:middle" onclick="location.href='https://rapidcharts.io/datascience'"><span>Course </span></button>
+    <button class="button" style="vertical-align:middle" onclick="location.href='project.html'"><span>Project </span></button>
+    <button class="button" style="vertical-align:middle" onclick="location.href='portfolio.html'"><span>Portfolio </span></button>
+    <button class="button" style="vertical-align:middle" onclick="location.href='https://github.com/lizziealliott'""><span>GitHub </span></button>
+</div>
+    
 
-    <!-- Link to my style sheet -->
-    <link rel="stylesheet" href="project.css">
+<container class="acontainer">
+</container>
+<h4>IS HEALTH INEQUALITY SHORTENING LIVES IN THE US?</h4>
+<container class="acontainer">
+</container>
 
-    <!--The next three lines allow the Vega embed-->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
-</head>
-<h1>PROJECT</h1>  
-<div class="wrap">    
+<h5>MOTIVATION</h5>
+<container class="bcontainer">
+<div class="text-level-A">This regression outlines the inefficient nature of the US healthcare system. Despite spending over at least 2 percentage points of their GDP more than any other country, the US’ average life expectancy is below 80 years and is falling (Shmerling, 2022). As a potential explanation for the lack in outcome from expenditure, this project aims to present data surrounding inequalities in health between different groups of people in the USA. </a> 
+</div>
+<div class="chart" id="chart18">
+<script>     
+var myChart18 = "chart1.json";
+vegaEmbed('#chart18', myChart18);
+</script>
+</div>
+<div class="navbuttons">
+  <button class="button2" style="vertical-align:middle" onclick="location.href='https://colab.research.google.com/drive/1xSeDrxdI9u5Ax4IB4Vl9WruOEx5xtEC8?usp=sharing'"><span>Colab</span></button>
+  <button class="button2" style="vertical-align:middle" onclick="location.href='https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS'"><span>Source</span></button>
+  <button class="button2" style="vertical-align:middle" onclick="location.href='https://data.worldbank.org/indicator/SP.DYN.LE00.IN'"><span>Source</span></button>
+</div>
+<div class="text-level-A">This chart uses the World Bank Data python library to download the World Bank API - the data will refresh automatically when the code is run. I merged the 2 datasets via Pandas in colab. I couldn’t use a loop to download both datasets at once, so had to repeat the code for life expectancy and expenditure.</a> 
+</div>
+</container>
+
+
+<h5>LOCATION - INSURANCE</h5>
+<container class="bcontainer">
+  <div class="text-level-A">The most notable way the US differs from other industrialized countries is the absence of universal health insurance coverage. This map aims to show the geographical inequality with regards to insurance across US counties. There seems to be a large disparity between the north and south. Texas sees uninsured rates of up to 37%; Massachusetts as low as 3%. However, there are some anomalies, like South Dakota. </a> 
+  </div>
+<div class="chart" id="chart19">
+  <script>
+    var myChart19 = "chart2.json";
+    vegaEmbed('#chart19', myChart19);
+  </script>
+</div>
+<div class="navbuttons">
+  <button class="button2" style="vertical-align:middle" onclick="location.href='https://aspe.hhs.gov/reports/state-county-local-estimates-uninsured-population'"><span>Source</span></button>
+</div>
+<div class="text-level-A">I downloaded the ASPE CSV locally and used the geoJSON from GitHub to combine both datasets in Vega-Lite. Each county had a 2 letter code for its state in the same cell as the name. To clean the data, I extracted the characters from the string in excel.</a> 
+</div>
+</container>
+
+
+
+<h5>RACE - INFANT MORTALITY</h5>
+<container class="bcontainer">
+  <div class="text-level-A">This chart aims to show how your race impacts your chance of survival before you are even born. Shockingly, by 2016, having a Black/African American mother would increase your infant mortality rate by up to over 5%, reaching the average of less economically developed ‘Upper Middle Income’ Countries.</a> 
+  </div>
+  <div class="chart" id="chart21">
+    <script>
+      var myChart21 = "chart4.json";
+      vegaEmbed('#chart21', myChart21);
+    </script>
+  </div>
+<div class="navbuttons">
+  <button class="button1" style="vertical-align:middle" onclick="location.href='https://colab.research.google.com/drive/1CG0pYFdQFu9QNgyfgOqk9icoBP-9PrPk?usp=sharing'"><span>Colab </span></button>
+  <button class="button2" style="vertical-align:middle" onclick="location.href='https://data.cdc.gov/NCHS/Infant-neonatal-postneonatal-fetal-and-perinatal-m/nfuu-hu6j'"><span>Source</span></button>
+  <button class="button2" style="vertical-align:middle" onclick="location.href='https://fred.stlouisfed.org/series/SPDYNIMRTINUMC'"><span>Source</span></button>
+  <button class="button2" style="vertical-align:middle" onclick="location.href='https://fred.stlouisfed.org/series/SPDYNIMRTINHIC'"><span>Source</span></button>
+</div>
+<div class="text-level-A">This data was accessed via the CDC API and a loop over the Fred API. I converted both JSONs to csv, as it was easier to clean and merge the data. When I converted the Fred JSON, all the data was as a string in one cell, so I used excel to extract the characters from the string.</a> 
+</div>
+</container>
+
+<h5>AGE AND GENDER - DISABILITY AND HEART DISEASE</h5>
+<container class="bcontainer">
+  <div class="text-level-A">This chart aims to explore the extent to which your gender and location impact the chance of you having a disability in the US. It is clear disability rates are far higher in women and some states even vary by over 10 percentage points. However, this could be due to lack of diagnoses in some men and states.</a> 
+  </div>
+<div class="chart" id="chart20">
+  <script>
+    var myChart20 = "chart3.json";
+    vegaEmbed('#chart20', myChart20);
+  </script>
+</div>
+<div class="text-level-A">Originally, I had used the CDC API on disability rates across gender, age and state. But the JSON only included several states, so I struggled to find a y axis to compare genders simultaneously. I downloaded the new csv locally and cleaned the data in excel.</a> 
+</div>
+<div class="navbuttons">
+  <button class="button2" style="vertical-align:middle" onclick="location.href='https://www.disabilitystatistics.org/reports/acs.cfm?statistic=2'"><span>Source</span></button>
+</div>
+  <div class="text-level-A">This chart shows how the chance of having heart disease differs by almost 30% depending on whether you are an 18-44 year-old women or over 65 man. </a> 
+  </div>
+  <div class="chart" id="chart22">
+    <script>
+      var myChart22 = "chart5.json";
+      vegaEmbed('#chart22', myChart22);
+    </script>
+  </div>
+<div class="navbuttons">
+  <button class="button1" style="vertical-align:middle" onclick="location.href='https://colab.research.google.com/drive/1jbqy_ZSnrCLBGdcfDklMoPpGhH_RdD_x?usp=sharing'"><span>Colab</span></button>
+  <button class="button2" style="vertical-align:middle" onclick="location.href='https://www.cdc.gov/nchs/hus/data-finder.htm?&subject=Heart%20disease'"><span>Source</span></button>
+</div>
+<div class="text-level-A">I really struggled to find data on different age brackets. Once I found this dataset, I downloaded it locally from CDC and used pandas to clean and convert it to a tidy, long-form format. </a> 
+</div>
+</container>
+
+
+<h5>EDUCATION - SUICIDE </h5>
+<container class="bcontainer">
+  <div class="text-level-A">This chart aims to show the link between the chance of receiving at least a bachelor’s degree and chance of suicide in a given state. It’s clear that there’s a link between higher rates of education and lower suicide rates. </a> 
+  </div>
+  <div class="chart" id="chart23">
+    <script>
+      var myChart23 = "chart6.json";
+      vegaEmbed('#chart23', myChart23);
+    </script>
+  </div>
+<div class="navbuttons">
+  <button class="button1" style="vertical-align:middle" onclick="location.href='https://colab.research.google.com/drive/1mikWuv5XAsFoo8j_LoOKTkiATIVDdmvL?usp=sharing'"><span>Colab</span></button>
+  <button class="button1" style="vertical-align:middle" onclick="location.href='https://colab.research.google.com/drive/1VFEn_PvaPEZs8YEKdjsHHN6I-sMH781U?usp=sharing'"><span>Colab</span></button>
+  <button class="button1" style="vertical-align:middle" onclick="location.href='https://www.cdc.gov/nchs/pressroom/sosmap/suicide-mortality/suicide.htm'"><span>Source</span></button>
+  <button class="button1" style="vertical-align:middle" onclick="location.href='https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_educational_attainment'"><span>Source</span></button>
+  <button class="button1" style="vertical-align:middle" onclick="location.href='https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html'"><span>Source</span></button>
+  <button class="button1" style="vertical-align:middle" onclick="location.href='https://worldpopulationreview.com/states'"><span>Source</span></button>
+</div>
+<div class="text-level-A">I used the US Census Bureau’s API for the data on population. The education data was collected by scraping Wikipedia. The rest of the data was downloaded locally. The datasets were merged all through Python Pandas. I had to drop District of Columbia, Puerto Rico and US as a whole. I also converted the string % values to numerical in excel, as the code wouldn’t work in python. </a> 
+</div>
+</container>
+
+<h5>INCOME AND WEALTH - LIFE EXPECTANCY</h5>
+<container class="bcontainer">
+    <div class="text-level-A">These regressions show the link between the mean income and wealth/GDP of a given state on its average life expectancy. Interestingly, the mean income has a much stronger correlation with life expectancy than the GDP of the state. Perhaps this links to insurance and lack of national health service: it doesn’t matter if your state is wealthier if you cannot personally pay for your healthcare. </a> 
+  </div>
+  <div class="chart" id="chart24">
+    <script>
+      var myChart24 = "chart7.json";
+      vegaEmbed('#chart24', myChart24);
+    </script>
+  </div>
+  <div class="chart" id="chart25">
+    <script>
+      var myChart25 = "chart8.json";
+      vegaEmbed('#chart25', myChart25);
+    </script>
+  </div>
+<div class="text-level-A">The data on nominal GDP per capita was scraped using beautiful soup in python from Wikipedia. The rest was downloaded locally from the World Population Review and merged in excel.</a> 
+</div>
+<div class="navbuttons">
+  <button class="button1" style="vertical-align:middle" onclick="location.href='https://colab.research.google.com/drive/1kivhxxRW6fVX5Fz9dtbeJYw6zspo_iRI?usp=sharing'"><span>Colab</span></button>
+  <button class="button1" style="vertical-align:middle" onclick="location.href='https://worldpopulationreview.com/state-rankings/life-expectancy-by-state'"><span>Source</span></button>
+  <button class="button1" style="vertical-align:middle" onclick="location.href=' https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_GDP#:~:text=GDP%20per%20capita%20also%20varied,49%2C017)%20recorded%20the%20three%20lowest'"><span>Source</span></button>
+</div>
+</container>
+
+<container class="acontainer">
+</container>
+
+<h5>CONCLUSION</h5>
+<div class="text-level-A">Overall, there is a clear link between race, age, income, gender and geographical location and numerous health factors in the USA. Perhaps, if these inequalities were improved, the excessive health expenditure may feed through onto improving the life expectancy of all American citizens. </a> 
+</div>
+<container class="acontainer">
+</container>
+
+
+<h6> Data References:</h6>
+<div class="text-level-B">Worldbank.org. (2022). Life expectancy and Health Expenditure | Data. [online] Available at: https://data.worldbank.org/indicator/SP.DYN.LE00.IN and https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS%202..
+</a> 
+<div class="text-level-B">ASPE. (2021). State and Local Estimates of the Uninsured Population in the U.S. Using the Census Bureau’s 2021 American Community Survey. [online] Available at: https://aspe.hhs.gov/reports/state-county-local-estimates-uninsured-population.
+</a> 
+<div class="text-level-B">NCHS/DAE (2021). Infant, neonatal, postneonatal, fetal, and perinatal mortality rates, by detailed race and Hispanic origin of mother: United States. [online] Cdc.gov. Available at: https://data.cdc.gov/NCHS/Infant-neonatal-postneonatal-fetal-and-perinatal-m/nfuu-hu6j.
+</a>     
+<div class="text-level-B">Stlouisfed.org. (2020). Infant Mortality Rate for Upper Middle and High Income Countries. [online] Available at: https://fred.stlouisfed.org/series/SPDYNIMRTINUMC and https://fred.stlouisfed.org/series/SPDYNIMRTINHIC.
+</a>     
+<div class="text-level-B">Disabilitystatistics.org. (2018). Disability Statistics. [online] Available at: https://www.disabilitystatistics.org/reports/acs.cfm?statistic=2.
+</a> 
+<div class="text-level-B">CDC (2022). Heart Disease Facts. [online] Centers for Disease Control and Prevention. Available at: https://www.cdc.gov/heartdisease/facts.htm .
+</a>     
+<div class="text-level-B">CDC, (2023). Stats of the State - Suicide Mortality. [online] Available at: https://www.cdc.gov/nchs/pressroom/sosmap/suicide-mortality/suicide.htm.
+‌ </a>     
+<div class="text-level-B">Wikipedia Contributors (2022). List of U.S. states and territories by educational attainment. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_educational_attainment.
+</a>     
+<div class="text-level-B">Worldpopulationreview.com. (2023). US States - Ranked by Population 2023. [online] Available at: https://worldpopulationreview.com/states.
+</a>     
+<div class="text-level-B">US Census Bureau (2022). State Population Totals and Components of Change: 2020-2022. [online] Census.gov. Available at: https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html.
+</a>     
+<div class="text-level-B">Worldpopulationreview.com. (2023). Life Expectancy by State 2023. [online] Available at: https://worldpopulationreview.com/state-rankings/life-expectancy-by-state.
+</a>     
+<div class="text-level-B">Wikipedia Contributors (2022). List of U.S. states and territories by GDP. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_GDP#:~:text=GDP%20per%20capita%20also%20varied,49%2C017)%20recorded%20the%20three%20lowest.
+</a>
+</div>
+<container class="acontainer">
+</container>
+
+
 
 </body>
 
 
+</html>

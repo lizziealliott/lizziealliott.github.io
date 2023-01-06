@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/city_cluster.csv"
+  },
+  "width": 200,
+  "height": 300,
+  "title": {
+    "text": "UK Regions 2022 ",
+    "subtitle": ["Source: https://simplemaps.com/data/gb-cities"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "navy"
+  },
+  "mark": {"type": "point", "filled": true, "size": 100, "opacity": 0.8},
+  "encoding": {
+    "x": {
+      "field": "longitude",
+      "title": "Longitude",
+      "type": "quantitative",
+      "scale": {"zero": false},
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "latitude",
+      "title": "Latitude",
+      "type": "quantitative",
+      "scale": {"zero": false},
+      "axis": {"grid": false}
+    },
+    "color": {
+      "field": "cluster_cities",
+      "title": "12 UK Regions",
+      "type": "nominal",
+      "legend": {
+        "labelExpr": "{'0': 'East Midlands','1': 'Northern Ireland', '2': 'North West', '3': 'London','4': 'Wales','5': 'Scotland','6': 'North East','7': 'Yorkshire and The Humber','8': 'South East', '9': 'South West','10':'East of England','11': 'West Midlands'}[datum.label]"
+      }
+    },
+    "tooltip": [{"field": "city", "type": "nominal", "title": "UK City"}]
+  }
+}

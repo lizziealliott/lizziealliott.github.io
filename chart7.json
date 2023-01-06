@@ -1,0 +1,88 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/proj_finalchart.csv"
+  },
+  "height": 340,
+  "width": 340,
+  "title": {
+    "text": "GDP & Life Expectancy 2022",
+    "subtitle": "Source: World Population Review & Wikepedia",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "navy"
+  },
+  "layer": [
+     {"selection": {
+        "paintbrush": {"type": "multi", "on": "mouseover", "nearest": true},
+        "grid": {"type": "interval"}
+      },
+    
+      "mark": {"type": "point", "filled": true, "color": "mediumorchid"},
+      "encoding": {
+        "x": {
+          "field": "lifeExp",
+          "type": "quantitative",
+          "title": "Life Expectancy at Birth (years)",
+          "scale": {"domain": [71, 82]}
+        },
+        "y": {
+          "field": "Nominal_GDP_per_capita_2022Q3",
+          "type": "quantitative",
+          "title": "Nominal GDP Per Capita ($)",
+          "scale": {"domain": [40000, 110000]}
+        },
+         "size": {
+          "condition": {
+            "selection": "paintbrush",
+            "value": 150,
+            "init": {"value": 30}
+          },
+          "value": 30
+        },
+        "tooltip": [
+          {"field": "State", "type": "nominal"},
+          {
+            "field": "lifeExp",
+            "type": "quantitative",
+            "title": "Life Expectancy at Birth (years)"
+          },
+          {
+            "field": "Nominal_GDP_per_capita_2022Q3",
+            "type": "quantitative",
+            "title": "Nominal GDP Per Capita ($)"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "navy"},
+      "transform": [
+        {"regression": "Nominal_GDP_per_capita_2022Q3", "on": "lifeExp"}
+      ],
+      "encoding": {
+        "x": {"field": "lifeExp", "type": "quantitative"},
+        "y": {"field": "Nominal_GDP_per_capita_2022Q3", "type": "quantitative"}
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "Nominal_GDP_per_capita_2022Q3",
+          "on": "lifeExp",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "grey",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {"text": {"type": "nominal", "field": "R2"}}
+    }
+  ]
+}

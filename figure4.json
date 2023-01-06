@@ -1,0 +1,35 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "IMF Credit Outstanding (% of World GDP) 1984-2021",
+    "subtitle": "Source: IMF",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "navy"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/extcred1_adj.csv"
+  },
+  "transform": [{"calculate": "datum.Proportion*100", "as": "percentage"}],
+  "height": 340,
+  "width": 340,
+  "mark": {"type": "bar", "color": "#190387"},
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {"title": null, "grid": false, "ticks": false, "labelAngle": 45}
+    },
+    "y": {
+      "field": "percentage",
+      "type": "quantitative",
+      "title": "%",
+      "axis": {"grid": false}
+    },
+    "tooltip": [
+      {"field": "Year", "type": "temporal", "title": "Year"},
+      {"field": "percentage", "type": "quantitative", "title": "%",         "format": ".2f"}
+    ]
+  }
+}

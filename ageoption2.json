@@ -1,0 +1,56 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "title": {
+        "text": "Obesity Rates & Age Groups 2020 ",
+        "subtitle": "Source: CDC",
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "anchor": "start",
+        "color": "black"
+      },
+    "data": {
+      "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/proj_5stateage.csv"
+    },
+    "width": 500,
+    "height": 300,
+    "repeat": {
+      "layer": [
+        "18 - 24","25 - 34","35 - 44","45 - 54","55 - 64","65 or older"
+      ]
+    },
+    "spec": {
+      "mark": {"type": "bar", "point": false, "color": "plasma"},
+      "encoding": {
+        "x": {
+          "field": "State",
+          "title": null,
+          "type": "nominal",
+          "axis": {"labelAngle": 20}
+        },
+        "y": {
+          "aggregate": "sum",
+          "field": {"repeat": "layer"},
+          "type": "quantitative",
+          "title": "Obesity Rate (%)",
+          "axis": {"grid": false},
+          "scale": {"domain": [0,48]}
+        },
+        "color": {
+          "datum": {"repeat": "layer"},
+          "title": "Age Group",
+          "scale": {"scheme": "plasma"}
+        },
+        "xOffset": {"datum": {"repeat": "layer"}},
+        "tooltip": [
+          {"field": "State", "type": "nominal", "title": "State"},
+          {"field": "18 - 24"},
+          {"field": "25 - 34"},
+          {"field": "35 - 44"},
+          {"field": "45 - 54"},
+          {"field": "55 - 64"},
+          {"field": "65 or older"}
+        ]
+      }
+    }
+  }

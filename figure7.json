@@ -1,0 +1,52 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  
+    "description": "Premier League Top Goal Scorers",
+  
+     "title": {
+      "text": "Premier League Top Goal Scorers Ever",
+      "subtitle":"Source: Premier League",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "navy"
+    },
+    "data": {
+      "values": [
+        {"Player": "Alan Shearer", "Stat": 260},
+        {"Player": "Wayne Rooney", "Stat": 208},
+        {"Player": "Harry Kane", "Stat": 195},
+        {"Player": "Andrew Cole", "Stat": 187},
+        {"Player": "Sergio Agüero", "Stat": 184},
+        {"Player": "Frank Lampard", "Stat": 177},
+        {"Player": "Thierry Henry", "Stat": 175},
+        {"Player": "Robbie Fowler", "Stat": 163},
+        {"Player": "Jermain Defoe", "Stat": 162},
+        {"Player": "Michael Owen", "Stat": 150},
+        {"Player": "Les Ferdinand", "Stat": 149},
+        {"Player": "Teddy Sheringham", "Stat": 146},
+        {"Player": "Robin van Persie", "Stat": 144},
+        {"Player": "Jamie Vardy", "Stat": 134},
+        {"Player": "Jimmy Floyd Hasselbaink", "Stat": 127},
+        {"Player": "Robbie Keane", "Stat": 126},
+        {"Player": "Mohamed Salah", "Stat": 126},
+        {"Player": "Nicolas Anelka", "Stat": 125},
+        {"Player": "Dwight Yorke", "Stat": 123},
+        {"Player": "Romelu Lukaku", "Stat": 121}
+      ]
+    },
+  "height": 340,
+  "width": 340,
+  "mark": {"type": "bar", "color": "#190387"},
+  
+    "encoding": {
+      "y": {"field": "Player", "type": "ordinal", "title":null, "sort": "-x"},
+      "x": {"field": "Stat", "type": "quantitative", "title": "Goals", "scale": {"domain": [100,260]}},
+      "tooltip": [
+        {"field": "Player", "type": "ordinal", "title": "Player"},
+        {"field": "Stat", "type": "quantitative", "title": "Number of goals"}
+        
+      ]
+    },
+    "config": {}
+  }

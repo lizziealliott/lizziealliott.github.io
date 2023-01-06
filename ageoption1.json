@@ -1,0 +1,88 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/proj_fluagefinal.csv"
+    },
+    "title": {
+        "text": "US Flu Vaccination Coverage by Age Group 2010-2021",
+        "subtitle": "Source: CDC",
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "anchor": "start",
+        "color": "black"
+      },
+    "width": 400,
+    "height": 340,
+    "layer": [
+      {
+        "encoding": {
+          "x": {"field": "Year", "type": "ordinal", "title":null, "axis": {"grid": false}},
+          "y": {"field": "Rate", "type": "quantitative", "axis": {"grid": false}, "title": "Rate (%)", "scale": {"domain": [20,80]}},
+          "color": {"field": "Age", "type": "nominal", "scale": {"scheme": "plasma"}}
+        },
+        "layer": [
+          {"mark": "line"},
+          {
+            "params": [{
+              "name": "label",
+              "select": {
+                "type": "point",
+                "encodings": ["x"],
+                "nearest": true,
+                "on": "mouseover"
+              }
+            }],
+            "mark": "point",
+            "encoding": {
+              "opacity": {
+                "condition": {
+                  "param": "label",
+                  "empty": false,
+                  "value": 1
+                },
+                "value": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "transform": [{"filter": {"param": "label", "empty": false}}],
+        "layer": [
+          {
+            "mark": {"type": "rule", "color": "gray"},
+            "encoding": {
+              "x": {"type": "ordinal", "field": "Year"}
+            }
+          },
+          {
+            "encoding": {
+              "text": {"type": "quantitative", "field": "Rate"},
+              "x": {"type": "ordinal", "field": "Year"},
+              "y": {"type": "quantitative", "field": "Rate"}
+            },
+            "layer": [
+              {
+                "mark": {
+                  "type": "text",
+                  "stroke": "white",
+                  "strokeWidth": 2,
+                  "align": "left",
+                  "dx": 5,
+                  "dy": -5
+                }
+              },
+              {
+                "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+                "encoding": {
+                  "color": {"type": "nominal", "field": "Age"}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+  
