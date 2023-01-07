@@ -141,22 +141,31 @@ vegaEmbed('#chart18', myChart18);
 <container class="bcontainer">
     <div class="text-level-A">These regressions show the link between the mean income and wealth/GDP of a given state on its average life expectancy. Interestingly, the mean income has a much stronger correlation with life expectancy than the GDP of the state. Perhaps this links to insurance and lack of national health service: it doesn’t matter if your state is wealthier if you cannot personally pay for your healthcare. </a> 
   </div>
-  <div class="chart" id="chart24">
-    <script>
-      var myChart24 = "chart7.json";
-      vegaEmbed('#chart24', myChart24);
-    </script>
-  </div>
-  <div class="chart" id="chart25">
-    <script>
-      var myChart25 = "chart8.json";
-      vegaEmbed('#chart25', myChart25);
-    </script>
-  </div>
+  <img src="graph_7.jpg" alt="GDP & Life Expectancy 2022" width="350" height="350">
+  <style>
+      img {  background-color: rgb(250, 243, 250);
+      width: auto;
+      border-width: 0px;
+      border-style:solid;
+      border-color: navy;
+      overflow: auto;
+  }
+  </style>
+  <img src="graph_8.jpg" alt="Income & Life Expectancy 2022" width="350" height="350">
+  <style>
+      img {  background-color: rgb(250, 243, 250);
+      width: auto;
+      border-width: 0px;
+      border-style:solid;
+      border-color: navy;
+      overflow: auto;
+  }
+  </style>
 <div class="text-level-A">The data on nominal GDP per capita was scraped using beautiful soup in python from Wikipedia. The rest was downloaded locally from the World Population Review and merged in excel.</a> 
 </div>
 <div class="navbuttons">
   <button class="button1" style="vertical-align:middle" onclick="location.href='https://colab.research.google.com/drive/1kivhxxRW6fVX5Fz9dtbeJYw6zspo_iRI?usp=sharing'"><span>Colab</span></button>
+  <button class="button1" style="vertical-align:middle" onclick="location.href='https://colab.research.google.com/drive/1KpKL1Z8S6IYvtYkothy0aOdv2Ryd0Ed_?usp=sharing'"><span>Colab</span></button>
   <button class="button1" style="vertical-align:middle" onclick="location.href='https://worldpopulationreview.com/state-rankings/life-expectancy-by-state'"><span>Source</span></button>
   <button class="button1" style="vertical-align:middle" onclick="location.href=' https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_GDP#:~:text=GDP%20per%20capita%20also%20varied,49%2C017)%20recorded%20the%20three%20lowest'"><span>Source</span></button>
 </div>
