@@ -4,8 +4,8 @@
     "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/projectchart1.csv"
   },
   "transform": [{"calculate": "datum.Percentage*100", "as": "percentage"}],
-  "height": 340,
-  "width": 340,
+  "height": 350,
+  "width": 350,
   "background": "rgb(250, 243, 250)",
   "title": {
     "text": "World Life Expectancy & Health Expenditure 2022",

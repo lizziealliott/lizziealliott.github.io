@@ -3,8 +3,8 @@
   "data": {
     "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/city_cluster.csv"
   },
-  "width": 200,
-  "height": 300,
+  "width": 250,
+  "height": 350,
   "title": {
     "text": "UK Regions 2022 ",
     "subtitle": ["Source: https://simplemaps.com/data/gb-cities"],

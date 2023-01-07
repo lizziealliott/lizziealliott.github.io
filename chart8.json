@@ -3,8 +3,8 @@
   "data": {
     "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/proj_finalchart.csv"
   },
-  "height": 340,
-  "width": 340,
+  "height": 350,
+  "width": 350,
   "background": "rgb(250, 243, 250)",
   "title":{
     "text": "Income & Life Expectancy 2022",

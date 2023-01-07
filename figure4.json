@@ -12,8 +12,8 @@
     "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/extcred1_adj.csv"
   },
   "transform": [{"calculate": "datum.Proportion*100", "as": "percentage"}],
-  "height": 340,
-  "width": 340,
+  "height": 350,
+  "width": 350,
   "mark": {"type": "bar", "color": "#190387"},
   "encoding": {
     "x": {

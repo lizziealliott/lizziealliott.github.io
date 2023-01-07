@@ -35,8 +35,8 @@
         {"Player": "Romelu Lukaku", "Stat": 121}
       ]
     },
-  "height": 340,
-  "width": 340,
+  "height": 350,
+  "width": 350,
   "mark": {"type": "bar", "color": "#190387"},
   
     "encoding": {

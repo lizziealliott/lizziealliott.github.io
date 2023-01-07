@@ -13,7 +13,7 @@
       "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/proj_genderdisability.csv",
       "format": {"type": "csv"}
     },
-    "height": 300,
+    "height": 350,
     "width": 250,
     "background": "rgb(250, 243, 250)",
     "transform": [

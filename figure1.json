@@ -17,8 +17,8 @@
     },
     "data": {
       "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ukMacro/M2.DataHub.MonetaryCPIHAnnRate.csv"},
-      "height": 340,
-      "width": 340,
+      "height": 350,
+      "width": 350,
     
     "encoding": {"x": {"field": "Month", "type": "temporal", "axis": {"title":null, "grid": false}}},
   

@@ -1077,8 +1077,8 @@
         {"Country": "USA", "TIME": "2022-10", "Unemployment Rate (%)": 3.7}
       ]
     },
-    "height": 340,
-    "width": 340,
+    "height": 350,
+    "width": 350,
     
     "mark": {
     "type": "bar", 

@@ -12,8 +12,8 @@
     "anchor": "start",
     "color": "navy"
   },
-  "width": 500,
-  "height": 340,
+  "width": 400,
+  "height": 350,
   "transform": [
     {"calculate": "year(datum.Year)", "as": "year"},
     {"filter": "datum.year>=minYear"},

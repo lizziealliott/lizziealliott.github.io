@@ -12,8 +12,8 @@
     "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/extcred1.csv"
   },
   "transform": [{"calculate": "datum.Totals/1000000000", "as": "billions"}],
-  "height": 340,
-  "width": 340,
+  "height": 350,
+  "width": 350,
   "mark": {"type": "bar", "color": "#190387"},
   "encoding": {
     "x": {

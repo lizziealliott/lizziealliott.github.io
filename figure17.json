@@ -8,8 +8,8 @@
     "subtitleFontSize": 10,
     "color": "navy"
     },
-    "width": 460,
-    "height": 340,
+    "width": 400,
+    "height": 350,
     "data": {
     "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/custom.geo%20(1).json",
     "format": {"property": "features"}
