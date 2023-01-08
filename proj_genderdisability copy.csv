@@ -1,0 +1,37 @@
+State,Gender,Disability,Rate
+Alaska,Female,Hearing,2.8
+Alaska,Male,Hearing,5.9
+Alaska,Female,Ambulatory,6.5
+Alaska,Male,Ambulatory,4.6
+Alaska,Female,Cognitive,4.7
+Alaska,Male,Cognitive,4.4
+California,Female,Hearing,2.6
+California,Male,Hearing,3.4
+California,Female,Ambulatory,6.7
+California,Male,Ambulatory,4.7
+California,Female,Cognitive,4.3
+California,Male,Cognitive,4.3
+New York,Female,Hearing,2.5
+New York,Male,Hearing,3
+New York,Female,Ambulatory,7.9
+New York,Male,Ambulatory,5.5
+New York,Female,Cognitive,4.4
+New York,Male,Cognitive,4.8
+Texas,Female,Hearing,2.6
+Texas,Male,Hearing,3.9
+Texas,Female,Ambulatory,7
+Texas,Male,Ambulatory,5.2
+Texas,Female,Cognitive,4.6
+Texas,Male,Cognitive,5
+Vermont,Female,Hearing,3.5
+Vermont,Male,Hearing,6.2
+Vermont,Female,Ambulatory,7.9
+Vermont,Male,Ambulatory,6.1
+Vermont,Female,Cognitive,6.6
+Vermont,Male,Cognitive,5.9
+Wyoming,Female,Hearing,2.9
+Wyoming,Male,Hearing,6
+Wyoming,Female,Ambulatory,7.4
+Wyoming,Male,Ambulatory,5.3
+Wyoming,Female,Cognitive,4
+Wyoming,Male,Cognitive,5.3
