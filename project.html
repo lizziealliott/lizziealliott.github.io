@@ -26,7 +26,7 @@
 
 <h5>MOTIVATION</h5>
 <container class="bcontainer">
-<div class="text-level-A">This regression outlines the inefficient nature of the US healthcare system. Despite spending over 2 percentage points more of their GDP than any other country, the US’ average life expectancy is below 80 years and is falling. As an explanation for the lack in outcome from expenditure, this project aims to present data analysing the extent of inequalities in health between demographics.</a> 
+<div class="text-level-A">This regression outlines the inefficient nature of the US healthcare system. Despite spending over 2 percentage points more of their GDP than any other country, the US’ average life expectancy is below 80 years and is falling. As an explanation for the lack in outcome from expenditure, this project aims to present data analysing the extent of inequalities in health between demographics. </a> 
 </div>
 <div class="chart" id="chart18">
 <script>     
@@ -47,7 +47,7 @@ vegaEmbed('#chart18', myChart18);
 
 <h5>LOCATION - INSURANCE</h5>
 <container class="bcontainer">
-  <div class="text-level-A">The most notable way the US differs from other industrialized countries is the absence of universal health insurance coverage. This choropleth map aims to show the geographical inequality in uninsured rates across counties. There seems to be a disparity between the north and south. Texas sees uninsured rates of up to 37%; Massachusetts as low as 3%. However, South Dakota does still see uninsured rates above 20%.</a> 
+  <div class="text-level-A">The most notable way the US differs from other industrialized countries is the absence of universal health insurance coverage. This choropleth map aims to show the geographical inequality in uninsured rates across counties. There seems to be a disparity between the north and south. Texas sees uninsured rates of up to 37%; Massachusetts as low as 3%. However, South Dakota does still see uninsured rates above 20%. </a> 
   </div>
 <div class="chart" id="chart19">
   <script>
@@ -58,7 +58,7 @@ vegaEmbed('#chart18', myChart18);
 <div class="navbuttons">
   <button class="button2" style="vertical-align:middle" onclick="location.href='https://aspe.hhs.gov/reports/state-county-local-estimates-uninsured-population'"><span>Source</span></button>
 </div>
-<div class="text-level-A">I downloaded the ASPE CSV locally and used the geoJSON from GitHub to combine both datasets in Vega-Lite. Each county name cell had a code for its state. To clean, I extracted the characters from the string in excel.</a> 
+<div class="text-level-A">I downloaded the ASPE CSV locally and used the geoJSON from GitHub to combine both datasets in Vega-Lite. Each county’s name cell had a code for its state. To clean, I extracted the characters from the string in excel.</a> 
 </div>
 </container>
 
@@ -66,7 +66,7 @@ vegaEmbed('#chart18', myChart18);
 
 <h5>RACE - INFANT MORTALITY</h5>
 <container class="bcontainer">
-  <div class="text-level-A">This line chart aims to show how your race impacts your chance of survival before you are even born. By 2016, having a Black/African American mother would increase your infant mortality rate by up to over 5%, reaching the average of less economically developed ‘Upper Middle Income’ countries.</a> 
+  <div class="text-level-A">This line chart aims to show how your race impacts your chance of survival, even before you are born. By 2016, having a Black/African American mother would increase your infant mortality rate by up to over 5%, reaching the average of less economically developed ‘Upper Middle Income’ countries. </a> 
   </div>
   <div class="chart" id="chart21">
     <script>
@@ -80,7 +80,7 @@ vegaEmbed('#chart18', myChart18);
   <button class="button2" style="vertical-align:middle" onclick="location.href='https://fred.stlouisfed.org/series/SPDYNIMRTINUMC'"><span>Source</span></button>
   <button class="button2" style="vertical-align:middle" onclick="location.href='https://fred.stlouisfed.org/series/SPDYNIMRTINHIC'"><span>Source</span></button>
 </div>
-<div class="text-level-A">This data was accessed via the CDC API and a loop over the Fred API, making It replicable. I converted both JSONs to csv, as it was easier to clean and merge the data in python (pandas) and excel. The FRED data was as a string in one cell, so I used excel to extract the characters from the string.</a> 
+<div class="text-level-A">This data was accessed via the CDC API and a loop over the Fred API, making it replicable. I converted both JSONs to csv, as it was easier to clean and merge the data in python (pandas) and excel. The FRED data was as a string in one cell, so I used excel to extract the characters needed from the string.</a> 
 </div>
 </container>
 
@@ -94,12 +94,12 @@ vegaEmbed('#chart18', myChart18);
     vegaEmbed('#chart20', myChart20);
   </script>
 </div>
-<div class="text-level-A">I downloaded the new CDC locally and cleaned the data in excel. Once, I created the chart, the y axis had combined both male and female values and I couldn’t put them side by side. To solve this issue, I added a column in the csv and renamed ‘female’ as ‘both’, whilst the tooltip shows each gender’s rate. </a> 
+<div class="text-level-A">. I downloaded the CDC csv locally and cleaned the data in excel. Once I created the chart, the female bar combined both male and female values and I couldn’t put the bars side by side. To solve this, I created a column in the csv and titled ‘Both’ and used a tooltip to show each gender’s rate.</a> 
 </div>
 <div class="navbuttons">
   <button class="button2" style="vertical-align:middle" onclick="location.href='https://www.disabilitystatistics.org/reports/acs.cfm?statistic=2'"><span>Source</span></button>
 </div>
-  <div class="text-level-A">This chart shows how the chance of having heart disease differs by almost 30% depending on whether you are an 18-44 woman or 65+ man. Whilst this may be due to biology, rather than inequality, research should be conducted to narrow the gap and educate older men on how to reduce heart disease. </a> 
+  <div class="text-level-A">This chart shows how the chance of having heart disease differs by almost 30% depending on whether you are an 18-44 woman or 65+ man. Whilst this may be due to biology, rather than inequality, research should be conducted to narrow the gap and educate older men on how to reduce heart disease.</a> 
   </div>
   <div class="chart" id="chart22">
     <script>
@@ -118,7 +118,7 @@ vegaEmbed('#chart18', myChart18);
 
 <h5>EDUCATION - SUICIDE </h5>
 <container class="bcontainer">
-  <div class="text-level-A">This bubble chart aims to show the link between receiving at least a bachelor’s degree and suicide rates across states. It’s clear that there’s a link between higher rates of education and lower suicide rates. There doesn’t seem to be an obvious link between expenditure and suicide rates, mirroring the lack of correlation between the US’ aggregate expenditure and life expectancy. </a> 
+  <div class="text-level-A">This bubble chart aims to show the link between receiving at least a bachelor’s degree and suicide rates across states. It’s clear that there’s a link between higher rates of education and lower suicide rates. There doesn’t seem to be an obvious link between expenditure and suicide rates, mirroring the lack of correlation between the US’ aggregate expenditure and life expectancy.</a> 
   </div>
   <div class="chart" id="chart23">
     <script>
@@ -134,13 +134,13 @@ vegaEmbed('#chart18', myChart18);
   <button class="button1" style="vertical-align:middle" onclick="location.href='https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html'"><span>Source</span></button>
   <button class="button1" style="vertical-align:middle" onclick="location.href='https://worldpopulationreview.com/states'"><span>Source</span></button>
 </div>
-<div class="text-level-A">The population data is from the US Census Bureau’s API. The education rates were scraped from Wikipedia using pandas. I cleaned by removing dollar signs and asterisks in excel. The rest was downloaded locally, cleaned and merged through Python Pandas. I dropped extra regions and converted % values to numerical in excel. </a> 
+<div class="text-level-A">The population data is from the US Census Bureau’s API. The education rates were scraped from Wikipedia using pandas. The rest was downloaded locally, cleaned and merged through Python Pandas. I removed dollar signs, extra regions, %s and asterisks from string values in excel and converted to numerical where necessary.</a> 
 </div>
 </container>
 
 <h5>INCOME AND WEALTH - LIFE EXPECTANCY</h5>
 <container class="bcontainer">
-    <div class="text-level-A">These regressions present the link between the mean income and GDP on state life expectancy. Mean income can explain 53% of the variance in life expectancy; GDP has a weaker correlation, only explaining 33%. Perhaps this links to a lack of national health service - it doesn’t matter if your state is wealthier if you cannot pay for your own healthcare. </a> 
+    <div class="text-level-A">These regressions present the link between the mean income and GDP on state life expectancy. Mean income can explain 53% of the variance in life expectancy; GDP has a weaker correlation, only explaining 33%. Perhaps this links to a lack of national health service - it doesn’t matter whether your state is wealthier if you cannot pay for your own healthcare. </a> 
   </div>
   <img src="graph_7.jpg" alt="GDP & Life Expectancy 2022" width="350" height="350">
   <style>
@@ -176,7 +176,7 @@ vegaEmbed('#chart18', myChart18);
 </container>
 
 <h5>CONCLUSION</h5>
-<div class="text-level-A">Despite national initiatives, including the Action to End Health Disparities, there are still persistent and pervasive disparities in health across demographics. According to the American Journal of Public Health, 45,000 annual deaths are linked to lack of health insurance. Further research should investigate how the government can implement policies to promote health equality and improve life expectancy of all American citizens.</a> 
+<div class="text-level-A">Despite national initiatives, including the Action to End Health Disparities, there are still persistent and pervasive disparities in health across demographics. According to the American Journal of Public Health, 45,000 annual deaths are linked to lack of health insurance. Further research should be conducted to investigate how the government can implement policies to promote health equity and improve life expectancy of all American citizens.</a> 
 </div>
 <container class="acontainer">
 </container>
