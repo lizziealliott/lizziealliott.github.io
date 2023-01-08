@@ -1,74 +1,62 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "...",
-    "title": {
-      "text": "Disability Rates across State and Gender 2019",
-      "subtitle": "Source: Cornell University Disability Statistics",
-      "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
-      "anchor": "start",
-      "color": "navy"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "...",
+  "title": {
+    "text": "Disability Rates across State and Gender 2019",
+    "subtitle": "Source: Cornell University Disability Statistics",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "navy"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/proj_genderdisability.csv",
+    "format": {"type": "csv"}
+  },
+  "height": 350,
+  "width": 250,
+  "background": "rgb(250, 243, 250)",
+  "transform": [{"filter": {"field": "Gender", "oneOf": ["Male", "Female"]}}],
+  "mark": "bar",
+  "encoding": {
+    "facet": {
+      "field": "Disability",
+      "type": "nominal",
+      "sort": null,
+      "columns": 3,
+      "title": "Disability Type"
     },
-    "data": {
-      "url": "https://raw.githubusercontent.com/lizziealliott/lizziealliott.github.io/main/proj_genderdisability.csv",
-      "format": {"type": "csv"}
+    "x": {
+      "field": "State",
+      "type": "nominal",
+      "title": null,
+      "axis": {
+        "offset": 1,
+        "ticks": false,
+        "minExtent": 70,
+        "domain": false,
+        "labelOverlap": "parity",
+        "labelFontSize": 7.4
+      },
+      "sort": "-y"
     },
-    "height": 350,
-    "width": 250,
-    "background": "rgb(250, 243, 250)",
-    "transform": [
-      {
-        "filter": {
-          "field": "Gender",
-          "oneOf": ["Male", "Female"]
-        }
-      }
+    "y": {
+      "field": "Rate",
+      "type": "quantitative",
+      "scale": {"domain": [0, 24]},
+      "title": "%"
+    },
+    "tooltip": [
+      {"field": "State", "type": "nominal", "title": "State"},
+      {"field": "Gender", "type": "nominal", "title": "Gender"},
+      {"field": "Rate", "type": "quantitative", "title": "Rate %"}
     ],
-    "mark": "bar",
-    "encoding": {
-      "facet": {
-        "field": "Disability",
-        "type": "nominal",
-        "sort": null,
-        "columns": 3,
-        "title": "Disability Type"
-      },
-      "x": {
-        "field": "State",
-        "type": "nominal",
-        "title": null,
-        "axis": {
-          "offset": 1,
-          "ticks": false,
-          "minExtent": 70,
-          "domain": false,
-          "labelOverlap": "parity",
-         "labelFontSize": 7.4
-        },
-        "sort": "-y"
-      },
-      "y": {
-        "field": "Rate",
-        "type": "quantitative",
-        "scale": {"domain": [0, 24]},
-        "title": "%"
-      },
-      "tooltip": [
-        {"field": "State", "type": "nominal", "title": "State"},
-         {"field": "Gender", "type": "nominal", "title": "Gender"},
-        {
-          "field": "Rate",
-          "type": "quantitative",
-          "title": "Rate %"
-        }
-      ],
-      "color": {
-        "field": "Gender",
-        "type": "ordinal",
-        "legend": {"orient": "top"},
-        "scale": {"range": ["#9467bd","navy"]},
-        "title": "Gender"
-      }
+    "color": {
+      "field": "Gender2",
+      "type": "ordinal",
+      "legend": {"orient": "top"},
+      "scale": {"range": ["#C1D0E6", "navy"]},
+      "title": "Gender"
     }
+  }
 }
-  
