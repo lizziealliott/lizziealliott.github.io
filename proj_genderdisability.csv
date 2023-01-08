@@ -1,1 +1,301 @@
-State,Gender,Disability,RateAlabama,Female,Hearing,3.4Alabama,Male,Hearing,5.4Alaska,Female,Hearing,2.8Alaska,Male,Hearing,5.9Arizona,Female,Hearing,2.9Arizona,Male,Hearing,5.1Arkansas,Female,Hearing,3.9Arkansas,Male,Hearing,6.2California,Female,Hearing,2.6California,Male,Hearing,3.4Colorado,Female,Hearing,2.6Colorado,Male,Hearing,4.3Connecticut,Female,Hearing,2.7Connecticut,Male,Hearing,3.2Delaware,Female,Hearing,2.6Delaware,Male,Hearing,4.2Florida,Female,Hearing,3.2Florida,Male,Hearing,4.6Georgia,Female,Hearing,2.6Georgia,Male,Hearing,3.9Hawaii,Female,Hearing,3Hawaii,Male,Hearing,4.9Idaho,Female,Hearing,2.9Idaho,Male,Hearing,6.5Illinois,Female,Hearing,2.5Illinois,Male,Hearing,3.5Indiana,Female,Hearing,3Indiana,Male,Hearing,4.7Iowa,Female,Hearing,3.1Iowa,Male,Hearing,4.3Kansas,Female,Hearing,3.4Kansas,Male,Hearing,5.5Kentucky,Female,Hearing,4.1Kentucky,Male,Hearing,6.1Louisiana,Female,Hearing,3.4Louisiana,Male,Hearing,4.9Maine,Female,Hearing,4.2Maine,Male,Hearing,6.7Maryland,Female,Hearing,2.3Maryland,Male,Hearing,3Massachusetts,Female,Hearing,2.7Massachusetts,Male,Hearing,3.5Michigan,Female,Hearing,3.1Michigan,Male,Hearing,4.6Minnesota,Female,Hearing,2.7Minnesota,Male,Hearing,4.1Mississippi,Female,Hearing,3.3Mississippi,Male,Hearing,5.3Missouri,Female,Hearing,3.1Missouri,Male,Hearing,5.3Montana,Female,Hearing,3.2Montana,Male,Hearing,6.5Nebraska,Female,Hearing,2.8Nebraska,Male,Hearing,5.4Nevada,Female,Hearing,2.9Nevada,Male,Hearing,4.3New Hampshire,Female,Hearing,2.4New Hampshire,Male,Hearing,4.5New Jersey,Female,Hearing,2.3New Jersey,Male,Hearing,2.7New Mexico,Female,Hearing,3.8New Mexico,Male,Hearing,6.3New York,Female,Hearing,2.5New York,Male,Hearing,3North Carolina,Female,Hearing,2.9North Carolina,Male,Hearing,4.3North Dakota,Female,Hearing,2.8North Dakota,Male,Hearing,5.4Ohio,Female,Hearing,3.1Ohio,Male,Hearing,4.4Oklahoma,Female,Hearing,3.8Oklahoma,Male,Hearing,6.2Oregon,Female,Hearing,3.5Oregon,Male,Hearing,5.9Pennsylvania,Female,Hearing,3.2Pennsylvania,Male,Hearing,4.5Rhode Island,Female,Hearing,3.1Rhode Island,Male,Hearing,4South Carolina,Female,Hearing,3South Carolina,Male,Hearing,4.8South Dakota,Female,Hearing,2.7South Dakota,Male,Hearing,6.4Tennessee,Female,Hearing,3.6Tennessee,Male,Hearing,5.3Texas,Female,Hearing,2.6Texas,Male,Hearing,3.9Utah,Female,Hearing,2Utah,Male,Hearing,3.5Vermont,Female,Hearing,3.5Vermont,Male,Hearing,6.2Virginia,Female,Hearing,2.8Virginia,Male,Hearing,4Washington,Female,Hearing,3Washington,Male,Hearing,4.7West Virginia,Female,Hearing,5.3West Virginia,Male,Hearing,7.9Wisconsin,Female,Hearing,2.9Wisconsin,Male,Hearing,4.5Wyoming,Female,Hearing,2.9Wyoming,Male,Hearing,6Alabama,Female,Ambulatory,10.8Alabama,Male,Ambulatory,7.7Alaska,Female,Ambulatory,6.5Alaska,Male,Ambulatory,4.6Arizona,Female,Ambulatory,7.5Arizona,Male,Ambulatory,6.3Arkansas,Female,Ambulatory,11.4Arkansas,Male,Ambulatory,9California,Female,Ambulatory,6.7California,Male,Ambulatory,4.7Colorado,Female,Ambulatory,5.6Colorado,Male,Ambulatory,4.3Connecticut,Female,Ambulatory,6.8Connecticut,Male,Ambulatory,5Delaware,Female,Ambulatory,8.1Delaware,Male,Ambulatory,5.4Florida,Female,Ambulatory,8.7Florida,Male,Ambulatory,6.6Georgia,Female,Ambulatory,8Georgia,Male,Ambulatory,6Hawaii,Female,Ambulatory,6.9Hawaii,Male,Ambulatory,5.2Idaho,Female,Ambulatory,7.1Idaho,Male,Ambulatory,6.3Illinois,Female,Ambulatory,7.2Illinois,Male,Ambulatory,5.4Indiana,Female,Ambulatory,8.5Indiana,Male,Ambulatory,6Iowa,Female,Ambulatory,6.7Iowa,Male,Ambulatory,4.9Kansas,Female,Ambulatory,8.4Kansas,Male,Ambulatory,6Kentucky,Female,Ambulatory,11Kentucky,Male,Ambulatory,8.7Louisiana,Female,Ambulatory,9.2Louisiana,Male,Ambulatory,7.6Maine,Female,Ambulatory,8.9Maine,Male,Ambulatory,7.1Maryland,Female,Ambulatory,7Maryland,Male,Ambulatory,4.9Massachusetts,Female,Ambulatory,6.7Massachusetts,Male,Ambulatory,4.7Michigan,Female,Ambulatory,8.4Michigan,Male,Ambulatory,6.4Minnesota,Female,Ambulatory,5.2Minnesota,Male,Ambulatory,4.4Mississippi,Female,Ambulatory,11.3Mississippi,Male,Ambulatory,8.8Missouri,Female,Ambulatory,9.1Missouri,Male,Ambulatory,7.2Montana,Female,Ambulatory,7.8Montana,Male,Ambulatory,5.7Nebraska,Female,Ambulatory,7.1Nebraska,Male,Ambulatory,5.1Nevada,Female,Ambulatory,7.7Nevada,Male,Ambulatory,6New Hampshire,Female,Ambulatory,7.3New Hampshire,Male,Ambulatory,5.2New Jersey,Female,Ambulatory,6.8New Jersey,Male,Ambulatory,4.6New Mexico,Female,Ambulatory,9.3New Mexico,Male,Ambulatory,8.1New York,Female,Ambulatory,7.9New York,Male,Ambulatory,5.5North Carolina,Female,Ambulatory,8.6North Carolina,Male,Ambulatory,6.5North Dakota,Female,Ambulatory,6.6North Dakota,Male,Ambulatory,3.5Ohio,Female,Ambulatory,8.6Ohio,Male,Ambulatory,6.2Oklahoma,Female,Ambulatory,9.8Oklahoma,Male,Ambulatory,7.6Oregon,Female,Ambulatory,8Oregon,Male,Ambulatory,6.2Pennsylvania,Female,Ambulatory,8.6Pennsylvania,Male,Ambulatory,6.3Rhode Island,Female,Ambulatory,8Rhode Island,Male,Ambulatory,5.2South Carolina,Female,Ambulatory,8.8South Carolina,Male,Ambulatory,6.8South Dakota,Female,Ambulatory,6.4South Dakota,Male,Ambulatory,5Tennessee,Female,Ambulatory,9.6Tennessee,Male,Ambulatory,7.3Texas,Female,Ambulatory,7Texas,Male,Ambulatory,5.2Utah,Female,Ambulatory,4.7Utah,Male,Ambulatory,3.4Vermont,Female,Ambulatory,7.9Vermont,Male,Ambulatory,6.1Virginia,Female,Ambulatory,7.2Virginia,Male,Ambulatory,5.3Washington,Female,Ambulatory,7.5Washington,Male,Ambulatory,5.5West Virginia,Female,Ambulatory,11.9West Virginia,Male,Ambulatory,11.2Wisconsin,Female,Ambulatory,6.9Wisconsin,Male,Ambulatory,5.3Wyoming,Female,Ambulatory,7.4Wyoming,Male,Ambulatory,5.3Alabama,Female,Cognitive,6.1Alabama,Male,Cognitive,6.5Alaska,Female,Cognitive,4.7Alaska,Male,Cognitive,4.4Arizona,Female,Cognitive,4.5Arizona,Male,Cognitive,5.6Arkansas,Female,Cognitive,6.8Arkansas,Male,Cognitive,7.5California,Female,Cognitive,4.3California,Male,Cognitive,4.3Colorado,Female,Cognitive,4Colorado,Male,Cognitive,4.4Connecticut,Female,Cognitive,5Connecticut,Male,Cognitive,5.3Delaware,Female,Cognitive,6.1Delaware,Male,Cognitive,6.2Florida,Female,Cognitive,5.3Florida,Male,Cognitive,5.3Georgia,Female,Cognitive,5.1Georgia,Male,Cognitive,5.6Hawaii,Female,Cognitive,4.4Hawaii,Male,Cognitive,4.1Idaho,Female,Cognitive,5.2Idaho,Male,Cognitive,6.1Illinois,Female,Cognitive,4.1Illinois,Male,Cognitive,4.6Indiana,Female,Cognitive,5.4Indiana,Male,Cognitive,5.6Iowa,Female,Cognitive,4.8Iowa,Male,Cognitive,5.2Kansas,Female,Cognitive,6.1Kansas,Male,Cognitive,5.9Kentucky,Female,Cognitive,7.4Kentucky,Male,Cognitive,7.7Louisiana,Female,Cognitive,6.4Louisiana,Male,Cognitive,6.6Maine,Female,Cognitive,6.4Maine,Male,Cognitive,8.1Maryland,Female,Cognitive,4.6Maryland,Male,Cognitive,4.9Massachusetts,Female,Cognitive,5Massachusetts,Male,Cognitive,5.1Michigan,Female,Cognitive,5.7Michigan,Male,Cognitive,6.2Minnesota,Female,Cognitive,4.3Minnesota,Male,Cognitive,4.8Mississippi,Female,Cognitive,6.1Mississippi,Male,Cognitive,6.8Missouri,Female,Cognitive,6Missouri,Male,Cognitive,6.5Montana,Female,Cognitive,4.8Montana,Male,Cognitive,5.2Nebraska,Female,Cognitive,4.8Nebraska,Male,Cognitive,4.1Nevada,Female,Cognitive,4.7Nevada,Male,Cognitive,4.5New Hampshire,Female,Cognitive,5.3New Hampshire,Male,Cognitive,5.3New Jersey,Female,Cognitive,4New Jersey,Male,Cognitive,4.4New Mexico,Female,Cognitive,6.8New Mexico,Male,Cognitive,6.8New York,Female,Cognitive,4.4New York,Male,Cognitive,4.8North Carolina,Female,Cognitive,5.2North Carolina,Male,Cognitive,5.6North Dakota,Female,Cognitive,4North Dakota,Male,Cognitive,4.1Ohio,Female,Cognitive,5.6Ohio,Male,Cognitive,5.9Oklahoma,Female,Cognitive,5.8Oklahoma,Male,Cognitive,6.4Oregon,Female,Cognitive,6.2Oregon,Male,Cognitive,6.7Pennsylvania,Female,Cognitive,6.1Pennsylvania,Male,Cognitive,6.3Rhode Island,Female,Cognitive,5.6Rhode Island,Male,Cognitive,5.6South Carolina,Female,Cognitive,5.1South Carolina,Male,Cognitive,6South Dakota,Female,Cognitive,3.6South Dakota,Male,Cognitive,4.6Tennessee,Female,Cognitive,6.2Tennessee,Male,Cognitive,6.7Texas,Female,Cognitive,4.6Texas,Male,Cognitive,5Utah,Female,Cognitive,4.2Utah,Male,Cognitive,4.2Vermont,Female,Cognitive,6.6Vermont,Male,Cognitive,5.9Virginia,Female,Cognitive,4.5Virginia,Male,Cognitive,4.8Washington,Female,Cognitive,5.4Washington,Male,Cognitive,5.4West Virginia,Female,Cognitive,7.8West Virginia,Male,Cognitive,8.2Wisconsin,Female,Cognitive,4.7Wisconsin,Male,Cognitive,4.8Wyoming,Female,Cognitive,4Wyoming,Male,Cognitive,5.3
+State,Gender,Disability,Rate,Gender2
+Alabama,Female,Hearing,3.4,Both
+Alabama,Male,Hearing,5.4,Male
+Alaska,Female,Hearing,2.8,Both
+Alaska,Male,Hearing,5.9,Male
+Arizona,Female,Hearing,2.9,Both
+Arizona,Male,Hearing,5.1,Male
+Arkansas,Female,Hearing,3.9,Both
+Arkansas,Male,Hearing,6.2,Male
+California,Female,Hearing,2.6,Both
+California,Male,Hearing,3.4,Male
+Colorado,Female,Hearing,2.6,Both
+Colorado,Male,Hearing,4.3,Male
+Connecticut,Female,Hearing,2.7,Both
+Connecticut,Male,Hearing,3.2,Male
+Delaware,Female,Hearing,2.6,Both
+Delaware,Male,Hearing,4.2,Male
+Florida,Female,Hearing,3.2,Both
+Florida,Male,Hearing,4.6,Male
+Georgia,Female,Hearing,2.6,Both
+Georgia,Male,Hearing,3.9,Male
+Hawaii,Female,Hearing,3,Both
+Hawaii,Male,Hearing,4.9,Male
+Idaho,Female,Hearing,2.9,Both
+Idaho,Male,Hearing,6.5,Male
+Illinois,Female,Hearing,2.5,Both
+Illinois,Male,Hearing,3.5,Male
+Indiana,Female,Hearing,3,Both
+Indiana,Male,Hearing,4.7,Male
+Iowa,Female,Hearing,3.1,Both
+Iowa,Male,Hearing,4.3,Male
+Kansas,Female,Hearing,3.4,Both
+Kansas,Male,Hearing,5.5,Male
+Kentucky,Female,Hearing,4.1,Both
+Kentucky,Male,Hearing,6.1,Male
+Louisiana,Female,Hearing,3.4,Both
+Louisiana,Male,Hearing,4.9,Male
+Maine,Female,Hearing,4.2,Both
+Maine,Male,Hearing,6.7,Male
+Maryland,Female,Hearing,2.3,Both
+Maryland,Male,Hearing,3,Male
+Massachusetts,Female,Hearing,2.7,Both
+Massachusetts,Male,Hearing,3.5,Male
+Michigan,Female,Hearing,3.1,Both
+Michigan,Male,Hearing,4.6,Male
+Minnesota,Female,Hearing,2.7,Both
+Minnesota,Male,Hearing,4.1,Male
+Mississippi,Female,Hearing,3.3,Both
+Mississippi,Male,Hearing,5.3,Male
+Missouri,Female,Hearing,3.1,Both
+Missouri,Male,Hearing,5.3,Male
+Montana,Female,Hearing,3.2,Both
+Montana,Male,Hearing,6.5,Male
+Nebraska,Female,Hearing,2.8,Both
+Nebraska,Male,Hearing,5.4,Male
+Nevada,Female,Hearing,2.9,Both
+Nevada,Male,Hearing,4.3,Male
+New Hampshire,Female,Hearing,2.4,Both
+New Hampshire,Male,Hearing,4.5,Male
+New Jersey,Female,Hearing,2.3,Both
+New Jersey,Male,Hearing,2.7,Male
+New Mexico,Female,Hearing,3.8,Both
+New Mexico,Male,Hearing,6.3,Male
+New York,Female,Hearing,2.5,Both
+New York,Male,Hearing,3,Male
+North Carolina,Female,Hearing,2.9,Both
+North Carolina,Male,Hearing,4.3,Male
+North Dakota,Female,Hearing,2.8,Both
+North Dakota,Male,Hearing,5.4,Male
+Ohio,Female,Hearing,3.1,Both
+Ohio,Male,Hearing,4.4,Male
+Oklahoma,Female,Hearing,3.8,Both
+Oklahoma,Male,Hearing,6.2,Male
+Oregon,Female,Hearing,3.5,Both
+Oregon,Male,Hearing,5.9,Male
+Pennsylvania,Female,Hearing,3.2,Both
+Pennsylvania,Male,Hearing,4.5,Male
+Rhode Island,Female,Hearing,3.1,Both
+Rhode Island,Male,Hearing,4,Male
+South Carolina,Female,Hearing,3,Both
+South Carolina,Male,Hearing,4.8,Male
+South Dakota,Female,Hearing,2.7,Both
+South Dakota,Male,Hearing,6.4,Male
+Tennessee,Female,Hearing,3.6,Both
+Tennessee,Male,Hearing,5.3,Male
+Texas,Female,Hearing,2.6,Both
+Texas,Male,Hearing,3.9,Male
+Utah,Female,Hearing,2,Both
+Utah,Male,Hearing,3.5,Male
+Vermont,Female,Hearing,3.5,Both
+Vermont,Male,Hearing,6.2,Male
+Virginia,Female,Hearing,2.8,Both
+Virginia,Male,Hearing,4,Male
+Washington,Female,Hearing,3,Both
+Washington,Male,Hearing,4.7,Male
+West Virginia,Female,Hearing,5.3,Both
+West Virginia,Male,Hearing,7.9,Male
+Wisconsin,Female,Hearing,2.9,Both
+Wisconsin,Male,Hearing,4.5,Male
+Wyoming,Female,Hearing,2.9,Both
+Wyoming,Male,Hearing,6,Male
+Alabama,Female,Ambulatory,10.8,Both
+Alabama,Male,Ambulatory,7.7,Male
+Alaska,Female,Ambulatory,6.5,Both
+Alaska,Male,Ambulatory,4.6,Male
+Arizona,Female,Ambulatory,7.5,Both
+Arizona,Male,Ambulatory,6.3,Male
+Arkansas,Female,Ambulatory,11.4,Both
+Arkansas,Male,Ambulatory,9,Male
+California,Female,Ambulatory,6.7,Both
+California,Male,Ambulatory,4.7,Male
+Colorado,Female,Ambulatory,5.6,Both
+Colorado,Male,Ambulatory,4.3,Male
+Connecticut,Female,Ambulatory,6.8,Both
+Connecticut,Male,Ambulatory,5,Male
+Delaware,Female,Ambulatory,8.1,Both
+Delaware,Male,Ambulatory,5.4,Male
+Florida,Female,Ambulatory,8.7,Both
+Florida,Male,Ambulatory,6.6,Male
+Georgia,Female,Ambulatory,8,Both
+Georgia,Male,Ambulatory,6,Male
+Hawaii,Female,Ambulatory,6.9,Both
+Hawaii,Male,Ambulatory,5.2,Male
+Idaho,Female,Ambulatory,7.1,Both
+Idaho,Male,Ambulatory,6.3,Male
+Illinois,Female,Ambulatory,7.2,Both
+Illinois,Male,Ambulatory,5.4,Male
+Indiana,Female,Ambulatory,8.5,Both
+Indiana,Male,Ambulatory,6,Male
+Iowa,Female,Ambulatory,6.7,Both
+Iowa,Male,Ambulatory,4.9,Male
+Kansas,Female,Ambulatory,8.4,Both
+Kansas,Male,Ambulatory,6,Male
+Kentucky,Female,Ambulatory,11,Both
+Kentucky,Male,Ambulatory,8.7,Male
+Louisiana,Female,Ambulatory,9.2,Both
+Louisiana,Male,Ambulatory,7.6,Male
+Maine,Female,Ambulatory,8.9,Both
+Maine,Male,Ambulatory,7.1,Male
+Maryland,Female,Ambulatory,7,Both
+Maryland,Male,Ambulatory,4.9,Male
+Massachusetts,Female,Ambulatory,6.7,Both
+Massachusetts,Male,Ambulatory,4.7,Male
+Michigan,Female,Ambulatory,8.4,Both
+Michigan,Male,Ambulatory,6.4,Male
+Minnesota,Female,Ambulatory,5.2,Both
+Minnesota,Male,Ambulatory,4.4,Male
+Mississippi,Female,Ambulatory,11.3,Both
+Mississippi,Male,Ambulatory,8.8,Male
+Missouri,Female,Ambulatory,9.1,Both
+Missouri,Male,Ambulatory,7.2,Male
+Montana,Female,Ambulatory,7.8,Both
+Montana,Male,Ambulatory,5.7,Male
+Nebraska,Female,Ambulatory,7.1,Both
+Nebraska,Male,Ambulatory,5.1,Male
+Nevada,Female,Ambulatory,7.7,Both
+Nevada,Male,Ambulatory,6,Male
+New Hampshire,Female,Ambulatory,7.3,Both
+New Hampshire,Male,Ambulatory,5.2,Male
+New Jersey,Female,Ambulatory,6.8,Both
+New Jersey,Male,Ambulatory,4.6,Male
+New Mexico,Female,Ambulatory,9.3,Both
+New Mexico,Male,Ambulatory,8.1,Male
+New York,Female,Ambulatory,7.9,Both
+New York,Male,Ambulatory,5.5,Male
+North Carolina,Female,Ambulatory,8.6,Both
+North Carolina,Male,Ambulatory,6.5,Male
+North Dakota,Female,Ambulatory,6.6,Both
+North Dakota,Male,Ambulatory,3.5,Male
+Ohio,Female,Ambulatory,8.6,Both
+Ohio,Male,Ambulatory,6.2,Male
+Oklahoma,Female,Ambulatory,9.8,Both
+Oklahoma,Male,Ambulatory,7.6,Male
+Oregon,Female,Ambulatory,8,Both
+Oregon,Male,Ambulatory,6.2,Male
+Pennsylvania,Female,Ambulatory,8.6,Both
+Pennsylvania,Male,Ambulatory,6.3,Male
+Rhode Island,Female,Ambulatory,8,Both
+Rhode Island,Male,Ambulatory,5.2,Male
+South Carolina,Female,Ambulatory,8.8,Both
+South Carolina,Male,Ambulatory,6.8,Male
+South Dakota,Female,Ambulatory,6.4,Both
+South Dakota,Male,Ambulatory,5,Male
+Tennessee,Female,Ambulatory,9.6,Both
+Tennessee,Male,Ambulatory,7.3,Male
+Texas,Female,Ambulatory,7,Both
+Texas,Male,Ambulatory,5.2,Male
+Utah,Female,Ambulatory,4.7,Both
+Utah,Male,Ambulatory,3.4,Male
+Vermont,Female,Ambulatory,7.9,Both
+Vermont,Male,Ambulatory,6.1,Male
+Virginia,Female,Ambulatory,7.2,Both
+Virginia,Male,Ambulatory,5.3,Male
+Washington,Female,Ambulatory,7.5,Both
+Washington,Male,Ambulatory,5.5,Male
+West Virginia,Female,Ambulatory,11.9,Both
+West Virginia,Male,Ambulatory,11.2,Male
+Wisconsin,Female,Ambulatory,6.9,Both
+Wisconsin,Male,Ambulatory,5.3,Male
+Wyoming,Female,Ambulatory,7.4,Both
+Wyoming,Male,Ambulatory,5.3,Male
+Alabama,Female,Cognitive,6.1,Both
+Alabama,Male,Cognitive,6.5,Male
+Alaska,Female,Cognitive,4.7,Both
+Alaska,Male,Cognitive,4.4,Male
+Arizona,Female,Cognitive,4.5,Both
+Arizona,Male,Cognitive,5.6,Male
+Arkansas,Female,Cognitive,6.8,Both
+Arkansas,Male,Cognitive,7.5,Male
+California,Female,Cognitive,4.3,Both
+California,Male,Cognitive,4.3,Male
+Colorado,Female,Cognitive,4,Both
+Colorado,Male,Cognitive,4.4,Male
+Connecticut,Female,Cognitive,5,Both
+Connecticut,Male,Cognitive,5.3,Male
+Delaware,Female,Cognitive,6.1,Both
+Delaware,Male,Cognitive,6.2,Male
+Florida,Female,Cognitive,5.3,Both
+Florida,Male,Cognitive,5.3,Male
+Georgia,Female,Cognitive,5.1,Both
+Georgia,Male,Cognitive,5.6,Male
+Hawaii,Female,Cognitive,4.4,Both
+Hawaii,Male,Cognitive,4.1,Male
+Idaho,Female,Cognitive,5.2,Both
+Idaho,Male,Cognitive,6.1,Male
+Illinois,Female,Cognitive,4.1,Both
+Illinois,Male,Cognitive,4.6,Male
+Indiana,Female,Cognitive,5.4,Both
+Indiana,Male,Cognitive,5.6,Male
+Iowa,Female,Cognitive,4.8,Both
+Iowa,Male,Cognitive,5.2,Male
+Kansas,Female,Cognitive,6.1,Both
+Kansas,Male,Cognitive,5.9,Male
+Kentucky,Female,Cognitive,7.4,Both
+Kentucky,Male,Cognitive,7.7,Male
+Louisiana,Female,Cognitive,6.4,Both
+Louisiana,Male,Cognitive,6.6,Male
+Maine,Female,Cognitive,6.4,Both
+Maine,Male,Cognitive,8.1,Male
+Maryland,Female,Cognitive,4.6,Both
+Maryland,Male,Cognitive,4.9,Male
+Massachusetts,Female,Cognitive,5,Both
+Massachusetts,Male,Cognitive,5.1,Male
+Michigan,Female,Cognitive,5.7,Both
+Michigan,Male,Cognitive,6.2,Male
+Minnesota,Female,Cognitive,4.3,Both
+Minnesota,Male,Cognitive,4.8,Male
+Mississippi,Female,Cognitive,6.1,Both
+Mississippi,Male,Cognitive,6.8,Male
+Missouri,Female,Cognitive,6,Both
+Missouri,Male,Cognitive,6.5,Male
+Montana,Female,Cognitive,4.8,Both
+Montana,Male,Cognitive,5.2,Male
+Nebraska,Female,Cognitive,4.8,Both
+Nebraska,Male,Cognitive,4.1,Male
+Nevada,Female,Cognitive,4.7,Both
+Nevada,Male,Cognitive,4.5,Male
+New Hampshire,Female,Cognitive,5.3,Both
+New Hampshire,Male,Cognitive,5.3,Male
+New Jersey,Female,Cognitive,4,Both
+New Jersey,Male,Cognitive,4.4,Male
+New Mexico,Female,Cognitive,6.8,Both
+New Mexico,Male,Cognitive,6.8,Male
+New York,Female,Cognitive,4.4,Both
+New York,Male,Cognitive,4.8,Male
+North Carolina,Female,Cognitive,5.2,Both
+North Carolina,Male,Cognitive,5.6,Male
+North Dakota,Female,Cognitive,4,Both
+North Dakota,Male,Cognitive,4.1,Male
+Ohio,Female,Cognitive,5.6,Both
+Ohio,Male,Cognitive,5.9,Male
+Oklahoma,Female,Cognitive,5.8,Both
+Oklahoma,Male,Cognitive,6.4,Male
+Oregon,Female,Cognitive,6.2,Both
+Oregon,Male,Cognitive,6.7,Male
+Pennsylvania,Female,Cognitive,6.1,Both
+Pennsylvania,Male,Cognitive,6.3,Male
+Rhode Island,Female,Cognitive,5.6,Both
+Rhode Island,Male,Cognitive,5.6,Male
+South Carolina,Female,Cognitive,5.1,Both
+South Carolina,Male,Cognitive,6,Male
+South Dakota,Female,Cognitive,3.6,Both
+South Dakota,Male,Cognitive,4.6,Male
+Tennessee,Female,Cognitive,6.2,Both
+Tennessee,Male,Cognitive,6.7,Male
+Texas,Female,Cognitive,4.6,Both
+Texas,Male,Cognitive,5,Male
+Utah,Female,Cognitive,4.2,Both
+Utah,Male,Cognitive,4.2,Male
+Vermont,Female,Cognitive,6.6,Both
+Vermont,Male,Cognitive,5.9,Male
+Virginia,Female,Cognitive,4.5,Both
+Virginia,Male,Cognitive,4.8,Male
+Washington,Female,Cognitive,5.4,Both
+Washington,Male,Cognitive,5.4,Male
+West Virginia,Female,Cognitive,7.8,Both
+West Virginia,Male,Cognitive,8.2,Male
+Wisconsin,Female,Cognitive,4.7,Both
+Wisconsin,Male,Cognitive,4.8,Male
+Wyoming,Female,Cognitive,4,Both
+Wyoming,Male,Cognitive,5.3,Male
